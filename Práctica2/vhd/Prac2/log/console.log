@@ -1,0 +1,27 @@
+Design: 01:13 p.m., Miércoles, 15 de Marzo de 2017
+Design: Opening design "E:\Sistemas Digitales\p2\vhd\Prac2\Prac2.adf"
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+Compilation with file reorder...
+File: E:\Sistemas Digitales\p2\vhd\Prac2.vhd
+Compile Entity "prac2"
+Compile Architecture "DSMB" of Entity "prac2"
+Top-Level unit detected
+Entity  =>   prac2
+Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+01:14 p.m., Miércoles, 15 de Marzo de 2017
+Simulation has been initialized
+Selected Top-Level: prac2 (DSMB)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: stopped at time: 300 ns
+Simulation has been stopped

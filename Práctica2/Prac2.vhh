@@ -1,0 +1,10 @@
+ENTITY prac2 IS
+    PORT (
+	clr : in std_logic  ; 
+	clk : in std_logic  ; 
+	es : in std_logic  ; 
+	d : in std_logic_vector (6 downto 0) ; 
+	q : inout std_logic_vector (6 downto 0) ; 
+	op : in std_logic_vector (1 downto 0)
+    ) ;
+END prac2 ;

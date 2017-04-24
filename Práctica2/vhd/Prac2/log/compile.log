@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: E:\Sistemas Digitales\p2\vhd\Prac2.vhd
+ Compile Entity "prac2"
+ Compile Architecture "DSMB" of Entity "prac2"
+ Top-Level unit detected
+ Entity  =>   prac2
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]

@@ -1,0 +1,2 @@
+p1.vhd #Entity p1 4
+p1.vhd #Architecture a_p1 p1 12

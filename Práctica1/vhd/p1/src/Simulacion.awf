@@ -1,0 +1,143 @@
+$WAVE
+$SIGNAL 1 clk -1 0 IN 250000
+1 Stimulator="CLK:FRM:Override:100000.000000;1;1;0;50;1:Clock:1:0ps"
+$SIGNAL 2 clr -1 0 IN 250000
+2 Stimulator="VAL:FRM:Override:1:<= 1:1:0ps"
+$SIGNAL 3 d -1 0 IN 250000
+3 Stimulator="VAL:FRM:Override:1:<= 1:1:0ps"
+$BUS 4 4 display -1 0 INOUT 250000
+$SIGNAL 16 "(3)" 4 0 INOUT 250000
+$SIGNAL 17 "(2)" 4 1 INOUT 250000
+$SIGNAL 18 "(1)" 4 2 INOUT 250000
+$SIGNAL 19 "(0)" 4 3 INOUT 250000
+$SIGNAL 5 j -1 0 IN 250000
+5 Stimulator="VAL:FRM:Override:1:<= 1:1:0ps"
+$SIGNAL 6 k -1 0 IN 250000
+6 Stimulator="VAL:FRM:Override:0:<= 0:1:0ps"
+$SIGNAL 7 q -1 0 INOUT 250000
+$SIGNAL 8 qd -1 0 INOUT 250000
+$SIGNAL 9 qjk -1 0 INOUT 250000
+$SIGNAL 10 qsr -1 0 INOUT 250000
+$SIGNAL 11 qt -1 0 INOUT 250000
+$SIGNAL 12 r -1 0 IN 250000
+12 Stimulator="VAL:FRM:Override:0:<= 0:1:0ps"
+$SIGNAL 13 s -1 0 IN 250000
+13 Stimulator="VAL:FRM:Override:1:<= 1:1:0ps"
+$BUS 14 2 sel -1 0 IN 250000
+14 Stimulator="VAL:FRM:Override:10:<= 10:1:100ns"
+$SIGNAL 20 "(1)" 14 0 IN 250000
+$SIGNAL 21 "(0)" 14 1 IN 250000
+$SIGNAL 15 t -1 0 IN 250000
+15 Stimulator="VAL:FRM:Override:1:<= 1:1:150ns"
+$EVENTS
+I 0 "e#9#std_logicc9 UX01ZWLH-"
+S 1 0
+S 2 0
+S 3 0
+I 1 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+S 4 1
+S 5 0
+S 6 0
+S 7 0
+S 8 0
+S 9 0
+S 10 0
+S 11 0
+S 12 0
+S 13 0
+I 2 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+S 14 2
+S 15 0
+S 16 0
+S 17 0
+S 18 0
+S 19 0
+S 20 0
+S 21 0
+1 U
+2 U
+3 U
+16 U
+17 U
+18 U
+19 U
+5 U
+6 U
+7 U
+8 U
+9 U
+10 U
+11 U
+12 U
+13 U
+20 U
+21 U
+15 U
+D 1
+11 Z
+9 Z
+7 Z
+18 Z
+19 Z
+17 Z
+8 Z
+10 Z
+16 Z
+13 1
+12 0
+6 0
+5 0
+3 1
+2 1
+1 0
+T 15000
+11 0
+18 0
+8 0
+10 0
+7 0
+17 0
+19 0
+9 0
+16 0
+T 35000
+1 1
+D 2
+2 0
+T 50000
+1 0
+D 2
+21 0
+20 1
+5 1
+T 50000
+1 1
+D 2
+15 1
+T 8000
+D 3
+9 1
+8 1
+11 U
+10 1
+T 15000
+D 2
+16 1
+T 15000
+D 2
+7 1
+17 1
+T 12000
+1 0
+D 2
+2 1
+T 20000
+D 3
+9 0
+8 0
+11 0
+10 0
+T 15000
+D 2
+16 0
+$ENDWAVE

@@ -1,0 +1,27 @@
+Design: 2:20, miércoles, 01 de marzo de 2017
+Design: Opening design "E:\Sistemas Digitales\Práctica1\vhd\p1\p1.adf"
+Compilation with file reorder...
+File: E:\Sistemas Digitales\Práctica1\vhd\p1.vhd
+Compile Entity "p1"
+Compile Architecture "DSMB" of Entity "p1"
+Top-Level unit detected
+Entity  =>   p1
+Compile success 0 Errors 0 Warnings  Analysis time :  6.0 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.2 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.2 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.1 [s].
+KERNEL: Kernel process initialization done.
+2:22, miércoles, 01 de marzo de 2017
+Simulation has been initialized
+Selected Top-Level: p1 (DSMB)
+KERNEL: stopped at time: 50 ns
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 150 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: stopped at time: 250 ns
+Simulation has been stopped

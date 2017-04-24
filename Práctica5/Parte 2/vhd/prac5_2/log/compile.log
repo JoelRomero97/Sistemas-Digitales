@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: C:\Documents and Settings\Administrador\Escritorio\DiseñoDigitales\Práctica5\Parte 2\vhd\prac5_2.vhd
+ Compile Entity "prac52"
+ Compile Architecture "DSMB" of Entity "prac52"
+ Top-Level unit detected
+ Entity  =>   prac52
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]

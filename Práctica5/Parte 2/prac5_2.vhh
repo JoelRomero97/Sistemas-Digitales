@@ -1,0 +1,11 @@
+ENTITY prac52 IS
+    PORT (
+	clr : in std_logic  ; 
+	clk : in std_logic  ; 
+	e : in std_logic  ; 
+	l : in std_logic  ; 
+	ud : in std_logic  ; 
+	d : in std_logic_vector (4 downto 0) ; 
+	q : inout std_logic_vector (4 downto 0)
+    ) ;
+END prac52 ;

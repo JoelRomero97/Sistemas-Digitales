@@ -1,0 +1,18 @@
+Cypress Package: palce22v10-15pc  PinOut File: CodigoPractica4.pin
+
+This file was created on 09/27/2016 at 16:33:36 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [User] 
+clr in <> Enabled Normal 13 <> [User] 
+anodo(0) inout <> Enabled Normal 14 <> [User] 
+display(0) inout <> Enabled Normal 15 <> [User] 
+display(1) out <> Enabled Normal 16 <> [User] 
+display(2) out <> Enabled Normal 17 <> [User] 
+display(3) inout <> Enabled Normal 18 <> [User] 
+display(4) out <> Enabled Normal 19 <> [User] 
+display(5) inout <> Enabled Normal 20 <> [User] 
+display(6) inout <> Enabled Normal 21 <> [User] 
+anodo(2) inout <> Enabled Normal 22 <> [User] 
+anodo(1) inout <> Enabled Normal 23 <> [User] 

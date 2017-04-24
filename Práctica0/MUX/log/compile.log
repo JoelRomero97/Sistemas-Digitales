@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: C:\Documents and Settings\Administrador\Escritorio\DiseñoDigitales\MUX.vhd
+ Compile Entity "MUX"
+ Compile Architecture "A_MUX" of Entity "MUX"
+ Top-Level unit detected
+ Entity  =>   MUX
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]

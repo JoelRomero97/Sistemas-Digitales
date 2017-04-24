@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: C:\Documents and Settings\Administrador\Escritorio\DiseñoDigitales\vhd\MUX.vhd
+ Compile Entity "mux"
+ Compile Architecture "DSMB" of Entity "mux"
+ Top-Level unit detected
+ Entity  =>   mux
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]

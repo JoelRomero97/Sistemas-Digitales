@@ -1,0 +1,6 @@
+MESSAGE "File: C:\Documents and Settings\Administrador\Escritorio\DiseñoDigitales\MUX.vhd" 
+MESSAGE "Compile Entity "MUX"" 
+MESSAGE "Compile Architecture "A_MUX" of Entity "MUX"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   MUX" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]" 

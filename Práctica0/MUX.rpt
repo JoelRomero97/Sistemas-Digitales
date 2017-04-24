@@ -1,0 +1,303 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  MUX.vhd
+Options:    -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-15pc -b MUX.vhd -u Practica0.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Thu Feb 09 13:23:54 2017
+
+Library 'work' => directory 'lc22v10'
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work'
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Thu Feb 09 13:23:54 2017
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+tovif:  No errors.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Thu Feb 09 13:23:55 2017
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 5 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 12 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 0 wires.
+------------------------------------------------------
+Created 32 PLD nodes.
+
+topld:  No errors.
+
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN HEADER INFORMATION  (13:23:56)
+
+Input File(s): MUX.pla
+Device       : C22V10
+Package      : palce22v10-15pc
+ReportFile   : MUX.rpt
+
+Program Controls:
+    COMMAND LANGUAGE_VHDL 
+    COMMAND PROPERTY BUS_HOLD ENABLE 
+
+Signal Requests:
+    GROUP USEPOL ALL
+    GROUP FAST_SLEW ALL
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (13:23:56)
+
+Messages:
+  Information: Optimizing logic using best output polarity for signals:
+         display(2) display(5)
+
+  Information: Selected logic optimization OFF for signals:
+         display(0) display(1) display(3) display(4) display(6)
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (13:23:56)
+
+Messages:
+  Information: Optimizing Banked Preset/Reset requirements.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
+DESIGN EQUATIONS           (13:23:56)
+</CYPRESSTAG>
+
+    display(0) =
+          VCC
+
+    display(1) =
+          display(2) 
+
+    display(2) =
+          /b(0) * ref(0) * sel 
+        + /b(1) * ref(1) * sel 
+        + /b(2) * ref(2) * sel 
+        + b(0) * /ref(0) * sel 
+        + b(1) * /ref(1) * sel 
+        + b(2) * /ref(2) * sel 
+        + /a(0) * ref(0) * /sel 
+        + /a(1) * ref(1) * /sel 
+        + /a(2) * ref(2) * /sel 
+        + a(0) * /ref(0) * /sel 
+        + a(1) * /ref(1) * /sel 
+        + a(2) * /ref(2) * /sel 
+
+    display(3) =
+          GND
+
+    display(4) =
+          display(5) 
+
+    /display(5) =
+          b(0) * b(1) * b(2) * /ref(0) * sel 
+        + b(0) * b(2) * /ref(0) * /ref(1) * sel 
+        + b(0) * b(1) * /ref(0) * /ref(2) * sel 
+        + b(0) * /ref(0) * /ref(1) * /ref(2) * sel 
+        + a(0) * a(1) * a(2) * /ref(0) * /sel 
+        + a(0) * a(2) * /ref(0) * /ref(1) * /sel 
+        + a(0) * a(1) * /ref(0) * /ref(2) * /sel 
+        + a(0) * /ref(0) * /ref(1) * /ref(2) * /sel 
+        + b(1) * b(2) * /ref(1) * sel 
+        + b(1) * /ref(1) * /ref(2) * sel 
+        + a(1) * a(2) * /ref(1) * /sel 
+        + a(1) * /ref(1) * /ref(2) * /sel 
+        + b(2) * /ref(2) * sel 
+        + a(2) * /ref(2) * /sel 
+
+    display(6) =
+          GND
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN RULE CHECK          (13:23:56)
+
+Messages:
+                 None.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
+PINOUT INFORMATION   (13:23:56)
+</CYPRESSTAG>
+Messages:
+  Information: Checking for duplicate NODE logic.
+                 None.
+
+
+                                 C22V10
+                 __________________________________________
+            sel =| 1|                                  |24|* not used       
+         ref(2) =| 2|                                  |23|= display(4)     
+         ref(1) =| 3|                                  |22|= display(1)     
+         ref(0) =| 4|                                  |21|= display(0)     
+           b(2) =| 5|                                  |20|* not used       
+           b(1) =| 6|                                  |19|* not used       
+           b(0) =| 7|                                  |18|* not used       
+           a(2) =| 8|                                  |17|= display(5)     
+           a(1) =| 9|                                  |16|= display(2)     
+           a(0) =|10|                                  |15|= display(3)     
+       not used *|11|                                  |14|= display(6)     
+       not used *|12|                                  |13|* not used       
+                 __________________________________________
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
+RESOURCE UTILIZATION (13:23:56)
+</CYPRESSTAG>
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | Dedicated Inputs   |    9  |   11  |
+                 | Clock/Inputs       |    1  |    1  |
+                 | I/O Macrocells     |    7  |   10  |
+                 ______________________________________
+                                          17  /   22   = 77  %
+
+
+  Information: Output Logic Product Term Utilization.
+
+                  Node#  Output Signal Name  Used   Max
+                 ________________________________________
+                 | 14  |  display(6)      |   1  |   8  |
+                 | 15  |  display(3)      |   1  |  10  |
+                 | 16  |  display(2)      |  12  |  12  |
+                 | 17  |  display(5)      |  14  |  14  |
+                 | 18  |  Unused          |   0  |  16  |
+                 | 19  |  Unused          |   0  |  16  |
+                 | 20  |  Unused          |   0  |  14  |
+                 | 21  |  display(0)      |   1  |  12  |
+                 | 22  |  display(1)      |   1  |  10  |
+                 | 23  |  display(4)      |   1  |   8  |
+                 | 25  |  Unused          |   0  |   1  |
+                 ________________________________________
+                                             31  / 121   = 25  %
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+JEDEC ASSEMBLE             (13:23:56)
+
+Messages:
+  Information: Output file 'MUX.pin' created.
+  Information: Output file 'MUX.jed' created.
+
+  Usercode:    
+  Checksum:    C13B
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully at 13:23:56

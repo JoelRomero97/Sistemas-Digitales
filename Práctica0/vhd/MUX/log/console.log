@@ -1,0 +1,13 @@
+Design: 13:09, jueves, 09 de febrero de 2017
+Design: Opening design "C:\Documents and Settings\Administrador\Escritorio\DiseñoDigitales\vhd\MUX\MUX.adf"
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+Compilation with file reorder...
+File: C:\Documents and Settings\Administrador\Escritorio\DiseñoDigitales\vhd\MUX.vhd
+Compile Entity "mux"
+Compile Architecture "DSMB" of Entity "mux"
+Top-Level unit detected
+Entity  =>   mux
+Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].

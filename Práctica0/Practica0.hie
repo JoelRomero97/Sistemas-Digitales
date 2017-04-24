@@ -1,0 +1,2 @@
+MUX.vhd #Entity mux 4
+MUX.vhd #Architecture a_mux mux 11

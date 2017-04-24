@@ -1,0 +1,34 @@
+Design: 19:43, jueves, 09 de febrero de 2017
+Design: Opening design "C:\Documents and Settings\Administrador\Escritorio\DiseñoDigitales\MUX\MUX.adf"
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+Compilation with file reorder...
+File: C:\Documents and Settings\Administrador\Escritorio\DiseñoDigitales\MUX.vhd
+Compile Entity "MUX"
+Compile Architecture "A_MUX" of Entity "MUX"
+Top-Level unit detected
+Entity  =>   MUX
+Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+19:45, jueves, 09 de febrero de 2017
+Simulation has been initialized
+Selected Top-Level: MUX (A_MUX)
+KERNEL: stopped at time: 50 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+KERNEL: stopped at time: 100 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+KERNEL: stopped at time: 150 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+KERNEL: stopped at time: 250 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped

@@ -1,0 +1,28 @@
+Design: 04:04 p.m., Martes, 20 de Septiembre de 2016
+Design: Opening design "E:\Practicas Nayeli\Practica3\CodPractica3\CodPractica3.adf"
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+Compilation with file reorder...
+File: E:\Practicas Nayeli\Practica3\CodPractica3.vhd
+Compile Entity "Practica3"
+Compile Architecture "a_Practica3" of Entity "Practica3"
+Top-Level unit detected
+Entity  =>   Practica3
+Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+04:09 p.m., Martes, 20 de Septiembre de 2016
+Simulation has been initialized
+Selected Top-Level: Practica3 (a_Practica3)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: stopped at time: 300 ns
+KERNEL: stopped at time: 400 ns
+Simulation has been stopped

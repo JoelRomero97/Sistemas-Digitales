@@ -1,0 +1,17 @@
+Cypress Package: palce22v10-15pc  PinOut File: CodPractica3.pin
+
+This file was created on 09/20/2016 at 16:27:35 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [User] 
+x in <> Enabled Normal 11 <> [User] 
+clr in <> Enabled Normal 13 <> [User] 
+an0 out <> Enabled Normal 14 <> [User] 
+dis(0) out <> Enabled Normal 15 <> [User] 
+dis(1) out <> Enabled Normal 16 <> [User] 
+dis(2) out <> Enabled Normal 17 <> [User] 
+dis(3) out <> Enabled Normal 18 <> [User] 
+dis(4) out <> Enabled Normal 19 <> [User] 
+dis(5) inout <> Enabled Normal 20 <> [User] 
+dis(6) out <> Enabled Normal 21 <> [User] 

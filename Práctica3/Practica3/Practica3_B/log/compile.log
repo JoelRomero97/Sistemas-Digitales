@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: C:\Documents and Settings\USUARIO\Mis documentos\VHDL Practicas\Practicas Nayeli\Practica3\Practica3\Practica3.vhd
+ Compile Entity "practica3"
+ Compile Architecture "Ap3" of Entity "practica3"
+ Top-Level unit detected
+ Entity  =>   practica3
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]

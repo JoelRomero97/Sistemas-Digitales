@@ -1,0 +1,17 @@
+Cypress Package: palc22v10d-15pc  PinOut File: Practica3.pin
+
+This file was created on 09/20/2016 at 10:10:55 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+x in <> Enabled Normal 2 <> [Auto] 
+clear in <> Enabled Normal 3 <> [Auto] 
+display(6) out <> Enabled Normal 15 <> [Auto] 
+display(3) out <> Enabled Normal 16 <> [Auto] 
+display(1) out <> Enabled Normal 17 <> [Auto] 
+an out <> Enabled Normal 18 <> [Auto] 
+display(5) inout <> Enabled Normal 19 <> [Auto] 
+display(0) out <> Enabled Normal 20 <> [Auto] 
+display(2) out <> Enabled Normal 21 <> [Auto] 
+display(4) out <> Enabled Normal 22 <> [Auto] 

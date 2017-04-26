@@ -1,0 +1,467 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  CodigoPractica6_C_Mensaje_Usando_Contador.vhd
+Options:    -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-15pc -b CodigoPractica6_C_Mensaje_Usando_Contador.vhd -u Practica6_C_Mensaje_UsandoContador.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Tue Oct 11 16:46:12 2016
+
+Library 'work' => directory 'lc22v10'
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work'
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Tue Oct 11 16:46:12 2016
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+tovif:  No errors.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Tue Oct 11 16:46:12 2016
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 24 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+Created 46 PLD nodes.
+
+topld:  No errors.
+
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN HEADER INFORMATION  (16:46:14)
+
+Input File(s): CodigoPractica6_C_Mensaje_Usando_Contador.pla
+Device       : C22V10
+Package      : palce22v10-15pc
+ReportFile   : CodigoPractica6_C_Mensaje_Usando_Contador.rpt
+
+Program Controls:
+    COMMAND LANGUAGE_VHDL 
+    COMMAND PROPERTY BUS_HOLD ENABLE 
+
+Signal Requests:
+    GROUP USEPOL ALL
+    GROUP FAST_SLEW ALL
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (16:46:14)
+
+Messages:
+  Information: Process virtual 'salida_0D'salida_0D ... expanded.
+  Information: Process virtual 'salida_1D'salida_1D ... expanded.
+  Information: Process virtual 'salida_2D'salida_2D ... expanded.
+  Information: Process virtual 'salida_3D'salida_3D ... expanded.
+  Information: Process virtual 'salida_4D'salida_4D ... expanded.
+  Information: Process virtual 'salida_5D'salida_5D ... expanded.
+  Information: Process virtual 'salida_6D'salida_6D ... expanded.
+  Information: Process virtual 'salida_7D'salida_7D ... expanded.
+  Information: Process virtual 'salida_8D'salida_8D ... expanded.
+  Information: Process virtual 'salida_0'salida_0 ... expanded.
+  Information: Process virtual 'salida_1'salida_1 ... expanded.
+  Information: Process virtual 'salida_2'salida_2 ... expanded.
+  Information: Process virtual 'salida_3'salida_3 ... expanded.
+  Information: Process virtual 'salida_4'salida_4 ... expanded.
+  Information: Process virtual 'salida_5'salida_5 ... expanded.
+  Information: Process virtual 'salida_6'salida_6 ... expanded.
+  Information: Process virtual 'salida_7' ... converted to NODE.
+  Information: Process virtual 'salida_8' ... converted to NODE.
+  Information: Optimizing logic using best output polarity for signals:
+         display(0).D display(1).D display(2).D display(3).D display(4).D
+         display(5).D display(6).D salida_7.D salida_8.D
+
+  Information: Selected logic optimization OFF for signals:
+         display(0).AR display(0).C display(1).AP display(1).C display(2).AR
+         display(2).C display(3).AR display(3).C display(4).AR display(4).C
+         display(5).AR display(5).C display(6).AP display(6).C salida_7.AR
+         salida_7.C salida_8.AR salida_8.C
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (16:46:14)
+
+Messages:
+  Information: Optimizing Banked Preset/Reset requirements.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
+DESIGN EQUATIONS           (16:46:14)
+</CYPRESSTAG>
+
+    display(0).D =
+          /display(0).Q * display(1).Q * /display(2).Q * display(3).Q * 
+          /display(4).Q * display(5).Q * /display(6).Q * enable * 
+          /salida_7.Q * /salida_8.Q 
+        + /display(0).Q * /display(1).Q * /display(2).Q * display(3).Q * 
+          /display(4).Q * /display(5).Q * /display(6).Q * enable * 
+          /salida_7.Q * /salida_8.Q 
+        + /display(0).Q * /display(1).Q * display(2).Q * /display(3).Q * 
+          /display(4).Q * /display(5).Q * /display(6).Q * enable * 
+          /salida_7.Q * /salida_8.Q 
+        + /display(0).Q * display(1).Q * /display(2).Q * /display(3).Q * 
+          /display(4).Q * /display(5).Q * display(6).Q * enable * 
+          /salida_8.Q 
+        + display(0).Q * /enable 
+
+    display(0).AR =
+          clear 
+
+    display(0).SP =
+          GND
+
+    display(0).C =
+          clock 
+
+    /display(1).D =
+          /display(0).Q * display(1).Q * /display(2).Q * display(3).Q * 
+          /display(4).Q * display(5).Q * /display(6).Q * enable * 
+          /salida_7.Q * /salida_8.Q 
+        + display(0).Q * display(1).Q * display(2).Q * display(3).Q * 
+          /display(4).Q * /display(5).Q * display(6).Q * enable * 
+          /salida_7.Q 
+        + display(0).Q * display(1).Q * display(2).Q * display(3).Q * 
+          /display(4).Q * /display(5).Q * display(6).Q * enable * 
+          /salida_8.Q 
+        + /display(0).Q * /display(1).Q * /display(2).Q * /display(3).Q * 
+          display(4).Q * display(5).Q * display(6).Q * /salida_7.Q * 
+          /salida_8.Q 
+        + /display(0).Q * /display(1).Q * display(2).Q * /display(3).Q * 
+          /display(4).Q * display(5).Q * /display(6).Q * /salida_7.Q * 
+          /salida_8.Q 
+        + /display(0).Q * /display(1).Q * /display(2).Q * display(3).Q * 
+          /display(4).Q * /display(5).Q * /display(6).Q * /salida_7.Q * 
+          /salida_8.Q 
+        + /display(1).Q * /enable 
+
+    display(1).AR =
+          clear 
+
+    display(1).SP =
+          GND
+
+    display(1).C =
+          clock 
+
+    display(2).D =
+          /display(0).Q * display(1).Q * /display(2).Q * /display(3).Q * 
+          /display(4).Q * /display(5).Q * display(6).Q * enable * 
+          /salida_8.Q 
+        + /display(0).Q * /display(1).Q * display(2).Q * /display(3).Q * 
+          /display(4).Q * /display(5).Q * /display(6).Q * /salida_7.Q * 
+          /salida_8.Q 
+        + display(0).Q * display(1).Q * display(2).Q * display(3).Q * 
+          /display(4).Q * /display(5).Q * display(6).Q * /salida_8.Q 
+        + display(2).Q * /enable 
+
+    display(2).AR =
+          clear 
+
+    display(2).SP =
+          GND
+
+    display(2).C =
+          clock 
+
+    display(3).D =
+          /display(0).Q * /display(1).Q * display(2).Q * /display(3).Q * 
+          /display(4).Q * /display(5).Q * /display(6).Q * enable * 
+          /salida_7.Q * /salida_8.Q 
+        + /display(0).Q * display(1).Q * /display(2).Q * /display(3).Q * 
+          /display(4).Q * /display(5).Q * display(6).Q * enable * 
+          /salida_8.Q 
+        + /display(0).Q * /display(1).Q * /display(2).Q * /display(3).Q * 
+          display(4).Q * display(5).Q * enable * /salida_7.Q * /salida_8.Q 
+        + display(3).Q * /enable 
+
+    display(3).AR =
+          clear 
+
+    display(3).SP =
+          GND
+
+    display(3).C =
+          clock 
+
+    display(4).D =
+          display(0).Q * display(1).Q * display(2).Q * display(3).Q * 
+          /display(4).Q * /display(5).Q * display(6).Q * enable * 
+          /salida_7.Q * salida_8.Q 
+        + /display(0).Q * /display(1).Q * display(2).Q * /display(3).Q * 
+          /display(4).Q * display(5).Q * /display(6).Q * enable * 
+          /salida_7.Q * /salida_8.Q 
+        + /display(0).Q * /display(1).Q * /display(2).Q * display(3).Q * 
+          /display(4).Q * /display(5).Q * /display(6).Q * enable * 
+          /salida_7.Q * /salida_8.Q 
+        + display(4).Q * /enable 
+
+    display(4).AR =
+          clear 
+
+    display(4).SP =
+          GND
+
+    display(4).C =
+          clock 
+
+    display(5).D =
+          /display(0).Q * /display(1).Q * /display(2).Q * display(3).Q * 
+          /display(4).Q * /display(5).Q * /display(6).Q * enable * 
+          /salida_7.Q * /salida_8.Q 
+        + display(0).Q * display(1).Q * display(2).Q * display(3).Q * 
+          /display(4).Q * /display(5).Q * display(6).Q * enable * 
+          /salida_7.Q 
+        + /display(0).Q * /display(1).Q * /display(2).Q * /display(3).Q * 
+          display(4).Q * display(5).Q * /display(6).Q * /salida_7.Q * 
+          /salida_8.Q 
+        + /display(0).Q * /display(1).Q * display(2).Q * /display(3).Q * 
+          /display(4).Q * display(5).Q * /display(6).Q * /salida_7.Q * 
+          /salida_8.Q 
+        + display(5).Q * /enable 
+
+    display(5).AR =
+          clear 
+
+    display(5).SP =
+          GND
+
+    display(5).C =
+          clock 
+
+    /display(6).D =
+          /display(0).Q * /display(1).Q * display(2).Q * /display(3).Q * 
+          /display(4).Q * display(5).Q * /display(6).Q * /salida_7.Q * 
+          /salida_8.Q 
+        + display(0).Q * display(1).Q * display(2).Q * display(3).Q * 
+          /display(4).Q * /display(5).Q * display(6).Q * enable * 
+          /salida_8.Q 
+        + /display(0).Q * /display(1).Q * /display(2).Q * /display(3).Q * 
+          display(4).Q * display(5).Q * enable * /salida_7.Q * /salida_8.Q 
+        + /display(0).Q * display(1).Q * /display(2).Q * display(3).Q * 
+          /display(4).Q * display(5).Q * /display(6).Q * /salida_7.Q * 
+          /salida_8.Q 
+        + /display(6).Q * /enable 
+
+    display(6).AR =
+          clear 
+
+    display(6).SP =
+          GND
+
+    display(6).C =
+          clock 
+
+    salida_7.D =
+          display(0).Q * /display(1).Q * /display(2).Q * /display(3).Q * 
+          /display(4).Q * /display(5).Q * /display(6).Q * enable * 
+          /salida_7.Q * /salida_8.Q 
+        + /display(0).Q * display(1).Q * /display(2).Q * /display(3).Q * 
+          /display(4).Q * /display(5).Q * display(6).Q * salida_7.Q * 
+          /salida_8.Q 
+        + /enable * salida_7.Q 
+
+    salida_7.AR =
+          clear 
+
+    salida_7.SP =
+          GND
+
+    salida_7.C =
+          clock 
+
+    salida_8.D =
+          /display(0).Q * /display(1).Q * display(2).Q * /display(3).Q * 
+          /display(4).Q * /display(5).Q * /display(6).Q * enable * 
+          /salida_7.Q * /salida_8.Q 
+        + /enable * salida_8.Q 
+
+    salida_8.AR =
+          clear 
+
+    salida_8.SP =
+          GND
+
+    salida_8.C =
+          clock 
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN RULE CHECK          (16:46:14)
+
+Messages:
+                 None.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
+PINOUT INFORMATION   (16:46:14)
+</CYPRESSTAG>
+Messages:
+  Information: Checking for duplicate NODE logic.
+                 None.
+
+
+                                 C22V10
+                 __________________________________________
+          clock =| 1|                                  |24|* not used       
+         enable =| 2|                                  |23|= (salida_8)     
+       not used *| 3|                                  |22|* not used       
+       not used *| 4|                                  |21|= display(6)     
+       not used *| 5|                                  |20|= display(5)     
+       not used *| 6|                                  |19|= display(4)     
+       not used *| 7|                                  |18|= display(3)     
+       not used *| 8|                                  |17|= display(2)     
+       not used *| 9|                                  |16|= display(1)     
+       not used *|10|                                  |15|= display(0)     
+       not used *|11|                                  |14|= (salida_7)     
+       not used *|12|                                  |13|= clear          
+                 __________________________________________
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
+RESOURCE UTILIZATION (16:46:14)
+</CYPRESSTAG>
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | Dedicated Inputs   |    2  |   11  |
+                 | Clock/Inputs       |    1  |    1  |
+                 | I/O Macrocells     |    9  |   10  |
+                 ______________________________________
+                                          12  /   22   = 54  %
+
+
+  Information: Output Logic Product Term Utilization.
+
+                  Node#  Output Signal Name  Used   Max
+                 ________________________________________
+                 | 14  |  salida_7        |   3  |   8  |
+                 | 15  |  display(0)      |   5  |  10  |
+                 | 16  |  display(1)      |   7  |  12  |
+                 | 17  |  display(2)      |   4  |  14  |
+                 | 18  |  display(3)      |   4  |  16  |
+                 | 19  |  display(4)      |   4  |  16  |
+                 | 20  |  display(5)      |   5  |  14  |
+                 | 21  |  display(6)      |   5  |  12  |
+                 | 22  |  Unused          |   0  |  10  |
+                 | 23  |  salida_8        |   2  |   8  |
+                 | 25  |  Unused          |   0  |   1  |
+                 ________________________________________
+                                             39  / 121   = 32  %
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+JEDEC ASSEMBLE             (16:46:14)
+
+Messages:
+  Information: Output file 'CodigoPractica6_C_Mensaje_Usando_Contador.pin' created.
+  Information: Output file 'CodigoPractica6_C_Mensaje_Usando_Contador.jed' created.
+
+  Usercode:    
+  Checksum:    D153
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully at 16:46:14

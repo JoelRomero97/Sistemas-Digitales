@@ -1,0 +1,8 @@
+ENTITY practica6dado IS
+    PORT (
+	clear : in std_logic  ; 
+	clock : in std_logic  ; 
+	enable : in std_logic  ; 
+	display : inout std_logic_vector (6 downto 0)
+    ) ;
+END practica6dado ;

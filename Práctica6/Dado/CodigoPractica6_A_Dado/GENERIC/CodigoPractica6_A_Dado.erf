@@ -1,0 +1,6 @@
+MESSAGE "File: C:\Documents and Settings\USUARIO\Mis documentos\VHDL Practicas\Practicas Nayeli\Practica6MensajesConContadores\Practica6_A_Contador_Dado\CodigoPractica6_A_Dado.vhd" 
+MESSAGE "Compile Entity "Practica6Dado"" 
+MESSAGE "Compile Architecture "A_Practica6Dado" of Entity "Practica6Dado"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   Practica6Dado" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

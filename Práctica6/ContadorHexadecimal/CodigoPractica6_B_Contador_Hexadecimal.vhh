@@ -1,0 +1,8 @@
+ENTITY practica6_b_contadorhexadecimal IS
+    PORT (
+	clock : in std_logic  ; 
+	clear : in std_logic  ; 
+	enable : in std_logic  ; 
+	display : inout std_logic_vector (6 downto 0)
+    ) ;
+END practica6_b_contadorhexadecimal ;

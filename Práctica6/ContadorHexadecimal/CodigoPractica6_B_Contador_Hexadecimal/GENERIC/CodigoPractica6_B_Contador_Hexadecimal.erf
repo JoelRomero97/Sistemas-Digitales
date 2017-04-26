@@ -1,0 +1,6 @@
+MESSAGE "File: C:\Documents and Settings\USUARIO\Mis documentos\VHDL Practicas\Practicas Nayeli\Practica6MensajesConContadores\Practica6_B_Contador_Hexadecimal\CodigoPractica6_B_Contador_Hexadecimal.vhd" 
+MESSAGE "Compile Entity "Practica6_B_ContadorHexadecimal"" 
+MESSAGE "Compile Architecture "A_Practica6_B_ContadorHexadecimal" of Entity "Practica6_B_ContadorHexadecimal"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   Practica6_B_ContadorHexadecimal" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

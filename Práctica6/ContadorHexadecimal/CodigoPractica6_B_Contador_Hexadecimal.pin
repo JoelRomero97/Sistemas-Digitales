@@ -1,0 +1,16 @@
+Cypress Package: palce22v10-15pc  PinOut File: CodigoPractica6_B_Contador_Hexadecimal.pin
+
+This file was created on 10/09/2016 at 17:22:20 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clock gclk <> Enabled Normal 1 <> [User] 
+enable in <> Enabled Normal 2 <> [User] 
+clear in <> Enabled Normal 13 <> [User] 
+display(0) inout <> Enabled Normal 15 <> [User] 
+display(1) inout <> Enabled Normal 16 <> [User] 
+display(2) inout <> Enabled Normal 17 <> [User] 
+display(3) inout <> Enabled Normal 18 <> [User] 
+display(4) inout <> Enabled Normal 19 <> [User] 
+display(5) inout <> Enabled Normal 20 <> [User] 
+display(6) inout <> Enabled Normal 21 <> [User] 

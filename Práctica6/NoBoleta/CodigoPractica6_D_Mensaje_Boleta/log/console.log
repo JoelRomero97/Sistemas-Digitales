@@ -1,0 +1,39 @@
+Design: 05:48 p.m., Domingo, 09 de Octubre de 2016
+Design: Opening design "C:\Documents and Settings\USUARIO\Mis documentos\VHDL Practicas\Practicas Nayeli\Practica6MensajesConContadores\Practica6_D_Boleta_Mensaje\CodigoPractica6_D_Mensaje_Boleta\CodigoPractica6_D_Mensaje_Boleta.adf"
+Compilation with file reorder...
+File: C:\Documents and Settings\USUARIO\Mis documentos\VHDL Practicas\Practicas Nayeli\Practica6MensajesConContadores\Practica6_D_Boleta_Mensaje\CodigoPractica6_D_Mensaje_Boleta.vhd
+Compile Entity "Practica6_D_Boleta_Contador"
+Compile Architecture "A_Practica6_D_Boleta" of Entity "Practica6_D_Boleta_Contador"
+Top-Level unit detected
+Entity  =>   Practica6_D_Boleta_Contador
+Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+05:52 p.m., Domingo, 09 de Octubre de 2016
+Simulation has been initialized
+Selected Top-Level: Practica6_D_Boleta_Contador (A_Practica6_D_Boleta)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 1100 ns
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+05:54 p.m., Domingo, 09 de Octubre de 2016
+Simulation has been initialized
+Selected Top-Level: Practica6_D_Boleta_Contador (A_Practica6_D_Boleta)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 1100 ns
+KERNEL: stopped at time: 1200 ns
+KERNEL: stopped at time: 1300 ns
+KERNEL: stopped at time: 1400 ns
+Simulation has been stopped

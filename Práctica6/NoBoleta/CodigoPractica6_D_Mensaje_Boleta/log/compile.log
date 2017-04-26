@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: C:\Documents and Settings\USUARIO\Mis documentos\VHDL Practicas\Practicas Nayeli\Practica6MensajesConContadores\Practica6_D_Boleta_Mensaje\CodigoPractica6_D_Mensaje_Boleta.vhd
+ Compile Entity "Practica6_D_Boleta_Contador"
+ Compile Architecture "A_Practica6_D_Boleta" of Entity "Practica6_D_Boleta_Contador"
+ Top-Level unit detected
+ Entity  =>   Practica6_D_Boleta_Contador
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]

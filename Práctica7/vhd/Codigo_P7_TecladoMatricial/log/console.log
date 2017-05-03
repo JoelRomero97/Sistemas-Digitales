@@ -1,0 +1,52 @@
+Design: 03:18 p.m., Domingo, 16 de Octubre de 2016
+Design: Opening design "C:\Documents and Settings\USUARIO\Mis documentos\VHDL Practicas\Practicas Nayeli\Practica7\vhd\Codigo_P7_TecladoMatricial\Codigo_P7_TecladoMatricial.adf"
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+Compilation with file reorder...
+File: C:\Documents and Settings\USUARIO\Mis documentos\VHDL Practicas\Practicas Nayeli\Practica7\vhd\Codigo_P7_TecladoMatricial.vhd
+Compile Entity "practica7_tecladomatricial"
+Compile Architecture "DSMB" of Entity "practica7_tecladomatricial"
+Top-Level unit detected
+Entity  =>   practica7_tecladomatricial
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+03:20 p.m., Domingo, 16 de Octubre de 2016
+Simulation has been initialized
+Selected Top-Level: practica7_tecladomatricial (DSMB)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: stopped at time: 300 ns
+KERNEL: stopped at time: 400 ns
+KERNEL: stopped at time: 500 ns
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+03:22 p.m., Domingo, 16 de Octubre de 2016
+Simulation has been initialized
+Selected Top-Level: practica7_tecladomatricial (DSMB)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: stopped at time: 300 ns
+KERNEL: stopped at time: 400 ns
+KERNEL: stopped at time: 500 ns
+KERNEL: stopped at time: 600 ns
+KERNEL: stopped at time: 700 ns
+KERNEL: stopped at time: 1100 ns
+KERNEL: stopped at time: 1500 ns
+KERNEL: stopped at time: 1900 ns
+KERNEL: stopped at time: 2 us
+KERNEL: stopped at time: 2100 ns
+KERNEL: stopped at time: 2200 ns
+Simulation has been stopped

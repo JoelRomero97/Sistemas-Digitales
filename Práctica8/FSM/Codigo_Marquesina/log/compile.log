@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: C:\Documents and Settings\USUARIO\Mis documentos\VHDL Practicas\Practicas Nayeli\Practica9_Marquesina\FSM\Codigo_Marquesina.vhd
+ Compile Entity "Practica8_Marquesina"
+ Compile Architecture "A_Marquesina" of Entity "Practica8_Marquesina"
+ Top-Level unit detected
+ Entity  =>   Practica8_Marquesina
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]

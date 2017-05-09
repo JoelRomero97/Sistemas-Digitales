@@ -1,0 +1,438 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  Cod_P9_Marquesina.vhd
+Options:    -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-15pc -b Cod_P9_Marquesina.vhd -u Practica9_Marquesina.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Tue Oct 18 14:58:40 2016
+
+Library 'work' => directory 'lc22v10'
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work'
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Tue Oct 18 14:58:52 2016
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+tovif:  No errors.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Tue Oct 18 14:59:01 2016
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+State variable 'estado_actual' is represented by a Bit_vector (0 to 3).
+State encoding (sequential) for 'estado_actual' is:
+	edo0 :=	b"0000";
+	edo1 :=	b"0001";
+	edo2 :=	b"0010";
+	edo3 :=	b"0011";
+	edo4 :=	b"0100";
+	edo5 :=	b"0101";
+	edo6 :=	b"0110";
+	edo7 :=	b"0111";
+	edo8 :=	b"1000";
+	edo9 :=	b"1001";
+	edo10 :=	b"1010";
+	edo11 :=	b"1011";
+	edo12 :=	b"1100";
+State variable 'estado_siguiente' is represented by a Bit_vector (0 to 3).
+State encoding (sequential) for 'estado_siguiente' is:
+	edo0 :=	b"0000";
+	edo1 :=	b"0001";
+	edo2 :=	b"0010";
+	edo3 :=	b"0011";
+	edo4 :=	b"0100";
+	edo5 :=	b"0101";
+	edo6 :=	b"0110";
+	edo7 :=	b"0111";
+	edo8 :=	b"1000";
+	edo9 :=	b"1001";
+	edo10 :=	b"1010";
+	edo11 :=	b"1011";
+	edo12 :=	b"1100";
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 11 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 1 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 0 wires.
+------------------------------------------------------
+Created 39 PLD nodes.
+
+topld:  No errors.
+
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN HEADER INFORMATION  (14:59:11)
+
+Input File(s): Cod_P9_Marquesina.pla
+Device       : C22V10
+Package      : palce22v10-15pc
+ReportFile   : Cod_P9_Marquesina.rpt
+
+Program Controls:
+    COMMAND LANGUAGE_VHDL 
+    COMMAND PROPERTY BUS_HOLD ENABLE 
+
+Signal Requests:
+    GROUP USEPOL ALL
+    GROUP FAST_SLEW ALL
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (14:59:11)
+
+Messages:
+  Information: Process virtual 'estado_siguienteSBV_3'estado_siguienteSBV_3 ... expanded.
+  Information: Process virtual 'estado_siguienteSBV_2'estado_siguienteSBV_2 ... expanded.
+  Information: Process virtual 'estado_siguienteSBV_1'estado_siguienteSBV_1 ... expanded.
+  Information: Process virtual 'estado_siguienteSBV_0'estado_siguienteSBV_0 ... expanded.
+  Information: Process virtual 'estado_actualSBV_3' ... converted to NODE.
+  Information: Process virtual 'estado_actualSBV_2' ... converted to NODE.
+  Information: Process virtual 'estado_actualSBV_1' ... converted to NODE.
+  Information: Process virtual 'estado_actualSBV_0' ... converted to NODE.
+  Information: Optimizing logic using best output polarity for signals:
+         anodo(0) anodo(1) anodo(2) display(0) display(3) display(5)
+         display(6) estado_actualSBV_0.D estado_actualSBV_1.D
+         estado_actualSBV_2.D estado_actualSBV_3.D
+
+  Information: Selected logic optimization OFF for signals:
+         display(1) display(2) display(4) estado_actualSBV_0.AR
+         estado_actualSBV_0.C estado_actualSBV_1.AR estado_actualSBV_1.C
+         estado_actualSBV_2.AR estado_actualSBV_2.C estado_actualSBV_3.AR
+         estado_actualSBV_3.C
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (14:59:21)
+
+Messages:
+  Information: Optimizing Banked Preset/Reset requirements.
+  Information: Selecting D register equation as minimal for signal estado_actualSBV_0
+  Information: Selecting D register equation as minimal for signal estado_actualSBV_1
+  Information: Selecting D register equation as minimal for signal estado_actualSBV_2
+  Information: Inverting Preset/Reset & output logic polarity for estado_actualSBV_3.
+  Information: Selecting D register equation as minimal for signal estado_actualSBV_3
+  Information: Optimizing logic without changing polarity for signals:
+         anodo(0) anodo(1) anodo(2) display(0) display(3) display(5)
+         display(6) estado_actualSBV_0.D estado_actualSBV_1.D
+         estado_actualSBV_2.D estado_actualSBV_3.D
+
+  Information: Selected logic optimization OFF for signals:
+         display(1) display(2) display(4) estado_actualSBV_0.AR
+         estado_actualSBV_0.SP estado_actualSBV_0.C estado_actualSBV_1.AR
+         estado_actualSBV_1.SP estado_actualSBV_1.C estado_actualSBV_2.AR
+         estado_actualSBV_2.SP estado_actualSBV_2.C estado_actualSBV_3.AR
+         estado_actualSBV_3.SP estado_actualSBV_3.C
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (14:59:29)
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
+DESIGN EQUATIONS           (14:59:34)
+</CYPRESSTAG>
+
+    /anodo(0) =
+          /estado_actualSBV_0.Q * estado_actualSBV_1.Q * 
+          estado_actualSBV_2.Q * /estado_actualSBV_3.Q 
+        + /estado_actualSBV_0.Q * /estado_actualSBV_1.Q * 
+          estado_actualSBV_3.Q 
+        + /estado_actualSBV_1.Q * /estado_actualSBV_2.Q * 
+          estado_actualSBV_3.Q 
+
+    /anodo(1) =
+          /estado_actualSBV_0.Q * /estado_actualSBV_1.Q * 
+          estado_actualSBV_2.Q * /estado_actualSBV_3.Q 
+        + estado_actualSBV_0.Q * /estado_actualSBV_1.Q * 
+          /estado_actualSBV_2.Q * /estado_actualSBV_3.Q 
+        + estado_actualSBV_0.Q * estado_actualSBV_2.Q * 
+          estado_actualSBV_3.Q 
+        + estado_actualSBV_1.Q * /estado_actualSBV_2.Q * 
+          estado_actualSBV_3.Q 
+
+    /anodo(2) =
+          estado_actualSBV_1.Q * estado_actualSBV_2.Q * 
+          estado_actualSBV_3.Q 
+        + estado_actualSBV_0.Q * estado_actualSBV_2.Q * 
+          /estado_actualSBV_3.Q 
+        + estado_actualSBV_1.Q * /estado_actualSBV_2.Q * 
+          /estado_actualSBV_3.Q 
+
+    display(0) =
+          /estado_actualSBV_0.Q * estado_actualSBV_2.Q * 
+          estado_actualSBV_3.Q 
+        + estado_actualSBV_0.Q * /estado_actualSBV_1.Q * 
+          /estado_actualSBV_3.Q 
+        + estado_actualSBV_1.Q * estado_actualSBV_3.Q 
+        + estado_actualSBV_1.Q * estado_actualSBV_2.Q 
+
+    display(1) =
+          GND
+
+    display(2) =
+          GND
+
+    display(3) =
+          /estado_actualSBV_0.Q * /estado_actualSBV_1.Q * 
+          estado_actualSBV_2.Q * /estado_actualSBV_3.Q 
+        + /estado_actualSBV_1.Q * /estado_actualSBV_2.Q * 
+          estado_actualSBV_3.Q 
+        + estado_actualSBV_1.Q * /estado_actualSBV_2.Q * 
+          /estado_actualSBV_3.Q 
+        + estado_actualSBV_0.Q * estado_actualSBV_3.Q 
+
+    display(4) =
+          display(5) 
+
+    display(5) =
+          estado_actualSBV_0.Q * /estado_actualSBV_1.Q * 
+          /estado_actualSBV_3.Q 
+        + estado_actualSBV_1.Q * estado_actualSBV_2.Q * 
+          /estado_actualSBV_3.Q 
+
+    display(6) =
+          /estado_actualSBV_0.Q * /estado_actualSBV_1.Q * 
+          /estado_actualSBV_2.Q * estado_actualSBV_3.Q 
+        + /estado_actualSBV_0.Q * estado_actualSBV_1.Q * 
+          /estado_actualSBV_3.Q 
+        + estado_actualSBV_0.Q * /estado_actualSBV_1.Q * 
+          /estado_actualSBV_3.Q 
+        + estado_actualSBV_2.Q * /estado_actualSBV_3.Q 
+
+    estado_actualSBV_0.D =
+          /enable(0) * enable(1) * enable(2) * estado_actualSBV_1.Q * 
+          estado_actualSBV_2.Q * estado_actualSBV_3.Q 
+        + enable(0) * /enable(1) * enable(2) * estado_actualSBV_1.Q * 
+          estado_actualSBV_2.Q * estado_actualSBV_3.Q 
+        + enable(0) * /enable(2) * estado_actualSBV_0.Q 
+        + /enable(0) * estado_actualSBV_0.Q * /estado_actualSBV_1.Q 
+        + enable(2) * estado_actualSBV_0.Q * /estado_actualSBV_3.Q 
+        + estado_actualSBV_0.Q * estado_actualSBV_2.Q 
+        + enable(1) * estado_actualSBV_0.Q 
+
+    estado_actualSBV_0.AR =
+          clear 
+
+    estado_actualSBV_0.SP =
+          GND
+
+    estado_actualSBV_0.C =
+          clock 
+
+    estado_actualSBV_1.D =
+          /enable(0) * /enable(1) * enable(2) * /estado_actualSBV_0.Q * 
+          /estado_actualSBV_1.Q * estado_actualSBV_2.Q 
+        + enable(0) * /enable(1) * enable(2) * estado_actualSBV_0.Q * 
+          /estado_actualSBV_2.Q * estado_actualSBV_3.Q 
+        + enable(0) * enable(1) * enable(2) * estado_actualSBV_0.Q * 
+          estado_actualSBV_2.Q 
+        + /enable(0) * /enable(1) * estado_actualSBV_1.Q * 
+          estado_actualSBV_3.Q 
+        + enable(0) * enable(1) * estado_actualSBV_1.Q 
+        + /enable(2) * /estado_actualSBV_0.Q * estado_actualSBV_1.Q 
+        + enable(2) * estado_actualSBV_1.Q * /estado_actualSBV_2.Q 
+        + enable(1) * estado_actualSBV_1.Q * /estado_actualSBV_3.Q 
+        + enable(0) * estado_actualSBV_1.Q * /estado_actualSBV_3.Q 
+
+    estado_actualSBV_1.AR =
+          clear 
+
+    estado_actualSBV_1.SP =
+          GND
+
+    estado_actualSBV_1.C =
+          clock 
+
+    estado_actualSBV_2.D =
+          enable(0) * enable(1) * /enable(2) * /estado_actualSBV_0.Q * 
+          /estado_actualSBV_1.Q * estado_actualSBV_3.Q 
+        + enable(0) * /enable(1) * enable(2) * /estado_actualSBV_0.Q * 
+          estado_actualSBV_1.Q * /estado_actualSBV_2.Q 
+        + enable(0) * /enable(1) * enable(2) * estado_actualSBV_0.Q * 
+          estado_actualSBV_3.Q 
+        + /enable(0) * /enable(1) * enable(2) * estado_actualSBV_1.Q * 
+          estado_actualSBV_3.Q 
+        + /enable(0) * enable(1) * enable(2) * estado_actualSBV_0.Q * 
+          /estado_actualSBV_1.Q 
+        + enable(0) * /estado_actualSBV_0.Q * /estado_actualSBV_1.Q * 
+          estado_actualSBV_2.Q 
+        + /enable(1) * estado_actualSBV_0.Q * estado_actualSBV_2.Q 
+        + enable(1) * /estado_actualSBV_0.Q * estado_actualSBV_2.Q 
+        + estado_actualSBV_1.Q * estado_actualSBV_2.Q * 
+          /estado_actualSBV_3.Q 
+        + /enable(2) * estado_actualSBV_2.Q 
+
+    estado_actualSBV_2.AR =
+          clear 
+
+    estado_actualSBV_2.SP =
+          GND
+
+    estado_actualSBV_2.C =
+          clock 
+
+    estado_actualSBV_3.D =
+          /enable(0) * enable(1) * /enable(2) * /estado_actualSBV_0.Q * 
+          /estado_actualSBV_1.Q * /estado_actualSBV_2.Q 
+        + enable(0) * /enable(1) * enable(2) * estado_actualSBV_1.Q * 
+          estado_actualSBV_2.Q * /estado_actualSBV_3.Q 
+        + enable(0) * enable(1) * /enable(2) * /estado_actualSBV_1.Q * 
+          estado_actualSBV_2.Q * /estado_actualSBV_3.Q 
+        + /enable(1) * enable(2) * /estado_actualSBV_0.Q * 
+          estado_actualSBV_1.Q * /estado_actualSBV_2.Q * 
+          /estado_actualSBV_3.Q 
+        + /enable(0) * /enable(1) * estado_actualSBV_1.Q * 
+          estado_actualSBV_2.Q * estado_actualSBV_3.Q 
+        + enable(0) * /enable(1) * enable(2) * estado_actualSBV_0.Q * 
+          /estado_actualSBV_1.Q 
+        + enable(1) * enable(2) * /estado_actualSBV_0.Q * 
+          /estado_actualSBV_1.Q * estado_actualSBV_3.Q 
+        + enable(0) * enable(1) * estado_actualSBV_1.Q * 
+          estado_actualSBV_3.Q 
+        + enable(0) * /enable(1) * /estado_actualSBV_1.Q * 
+          estado_actualSBV_3.Q 
+        + enable(1) * estado_actualSBV_1.Q * /estado_actualSBV_2.Q * 
+          estado_actualSBV_3.Q 
+        + enable(0) * enable(2) * /estado_actualSBV_2.Q * 
+          estado_actualSBV_3.Q 
+        + /enable(1) * /estado_actualSBV_1.Q * /estado_actualSBV_2.Q * 
+          estado_actualSBV_3.Q 
+        + /enable(0) * estado_actualSBV_0.Q * estado_actualSBV_2.Q * 
+          /estado_actualSBV_3.Q 
+        + /enable(1) * estado_actualSBV_0.Q * estado_actualSBV_3.Q 
+        + /enable(2) * estado_actualSBV_1.Q * estado_actualSBV_3.Q 
+        + /enable(2) * estado_actualSBV_0.Q * estado_actualSBV_3.Q 
+        + /enable(2) * estado_actualSBV_0.Q * estado_actualSBV_2.Q 
+        + /enable(0) * /enable(2) * estado_actualSBV_3.Q 
+
+    estado_actualSBV_3.AR =
+          clear 
+
+    estado_actualSBV_3.SP =
+          GND
+
+    estado_actualSBV_3.C =
+          clock 
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN RULE CHECK          (14:59:34)
+
+Messages:
+  Error: Logic equation has too many product terms on signal estado_actualSBV_3.D.
+         Found = 18  ,  Maximum = 16
+
+
+Summary:
+                 Error Count = 1      Warning Count = 0
+
+Errors Detected.

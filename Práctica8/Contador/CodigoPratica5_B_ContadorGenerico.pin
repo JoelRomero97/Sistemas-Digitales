@@ -1,0 +1,19 @@
+Cypress Package: palce22v10-15pc  PinOut File: CodigoPratica5_B_ContadorGenerico.pin
+
+This file was created on 10/16/2016 at 16:20:12 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clock gclk <> Enabled Normal 1 <> [Auto] 
+enable in <> Enabled Normal 2 <> [Auto] 
+clear in <> Enabled Normal 3 <> [Auto] 
+q(6) inout <> Enabled Normal 14 <> [Auto] 
+q(8) inout <> Enabled Normal 15 <> [Auto] 
+q(4) inout <> Enabled Normal 16 <> [Auto] 
+q(2) inout <> Enabled Normal 17 <> [Auto] 
+q(0) inout <> Enabled Normal 18 <> [Auto] 
+q(9) inout <> Enabled Normal 19 <> [Auto] 
+q(1) inout <> Enabled Normal 20 <> [Auto] 
+q(3) inout <> Enabled Normal 21 <> [Auto] 
+q(7) inout <> Enabled Normal 22 <> [Auto] 
+q(5) inout <> Enabled Normal 23 <> [Auto] 

@@ -1,0 +1,421 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  Codigo_Marquesina.vhd
+Options:    -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-15pc -b Codigo_Marquesina.vhd -u Practica9_Marquesina.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Tue Oct 18 01:01:55 2016
+
+Library 'work' => directory 'lc22v10'
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work'
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Tue Oct 18 01:01:55 2016
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+tovif:  No errors.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Tue Oct 18 01:01:55 2016
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 1 equations, 40 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+Created 63 PLD nodes.
+
+topld:  No errors.
+
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN HEADER INFORMATION  (01:01:57)
+
+Input File(s): Codigo_Marquesina.pla
+Device       : C22V10
+Package      : palce22v10-15pc
+ReportFile   : Codigo_Marquesina.rpt
+
+Program Controls:
+    COMMAND LANGUAGE_VHDL 
+    COMMAND PROPERTY BUS_HOLD ENABLE 
+
+Signal Requests:
+    GROUP USEPOL ALL
+    GROUP FAST_SLEW ALL
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (01:01:57)
+
+Messages:
+  Information: Process virtual 'estado_siguiente_0'estado_siguiente_0 ... expanded.
+  Information: Process virtual 'estado_siguiente_3'estado_siguiente_3 ... expanded.
+  Information: Process virtual 'estado_siguiente_5'estado_siguiente_5 ... expanded.
+  Information: Process virtual 'estado_siguiente_6'estado_siguiente_6 ... expanded.
+  Information: Process virtual 'estado_siguiente_7'estado_siguiente_7 ... expanded.
+  Information: Process virtual 'estado_siguiente_8'estado_siguiente_8 ... expanded.
+  Information: Optimizing logic using best output polarity for signals:
+         anodo(0).D anodo(1).D display(0).D display(3).D display(6).D
+
+  Information: Selected logic optimization OFF for signals:
+         anodo(0).AP anodo(0).C anodo(1).AP anodo(1).C anodo(2).D anodo(2).AP
+         anodo(2).C display(0).AR display(0).C display(1) display(2).D
+         display(2).AR display(2).C display(3).AR display(3).C display(4).D
+         display(4).AR display(4).C display(5).D display(5).AR display(5).C
+         display(6).AR display(6).C
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (01:01:57)
+
+Messages:
+  Information: Optimizing Banked Preset/Reset requirements.
+  Information: Selecting D register equation as minimal for signal anodo(0)
+  Information: Selecting D register equation as minimal for signal anodo(1)
+  Information: Selecting D register equation as minimal for signal display(0)
+  Information: Selecting D register equation as minimal for signal display(3)
+  Information: Selecting D register equation as minimal for signal display(6)
+  Information: Selecting D register equation as minimal for signal display(2)
+  Information: Selecting D register equation as minimal for signal display(4)
+  Information: Selecting D register equation as minimal for signal display(5)
+  Information: Inverting Preset/Reset & output logic polarity for anodo(2).
+  Information: Selecting D register equation as minimal for signal anodo(2)
+  Information: Optimizing logic without changing polarity for signals:
+         display(0).D display(3).D display(6).D
+
+  Information: Selected logic optimization OFF for signals:
+         anodo(0).D anodo(0).AR anodo(0).SP anodo(0).C anodo(1).D anodo(1).AR
+         anodo(1).SP anodo(1).C anodo(2).D anodo(2).AR anodo(2).SP anodo(2).C
+         display(0).AR display(0).SP display(0).C display(1) display(2).D
+         display(2).AR display(2).SP display(2).C display(3).AR display(3).SP
+         display(3).C display(4).D display(4).AR display(4).SP display(4).C
+         display(5).D display(5).AR display(5).SP display(5).C display(6).AR
+         display(6).SP display(6).C
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (01:01:57)
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
+DESIGN EQUATIONS           (01:01:57)
+</CYPRESSTAG>
+
+    /anodo(0).D =
+          /enable(0) * enable(1) * /enable(2) 
+
+    anodo(0).AR =
+          clear 
+
+    anodo(0).SP =
+          GND
+
+    anodo(0).C =
+          clock 
+
+    /anodo(1).D =
+          enable(0) * enable(1) * /enable(2) 
+
+    anodo(1).AR =
+          clear 
+
+    anodo(1).SP =
+          GND
+
+    anodo(1).C =
+          clock 
+
+    /anodo(2).D =
+          enable(2) 
+
+    anodo(2).AR =
+          clear 
+
+    anodo(2).SP =
+          GND
+
+    anodo(2).C =
+          clock 
+
+    display(0).D =
+          /enable(0) * enable(1) * enable(2) 
+        + enable(0) * /enable(1) * enable(2) 
+
+    display(0).AR =
+          clear 
+
+    display(0).SP =
+          GND
+
+    display(0).C =
+          clock 
+
+    display(1) =
+          display(2).Q 
+
+    display(2).D =
+          GND
+
+    display(2).AR =
+          clear 
+
+    display(2).SP =
+          GND
+
+    display(2).C =
+          clock 
+
+    display(3).D =
+          /enable(0) * /enable(1) * enable(2) 
+        + enable(0) * enable(1) 
+        + enable(1) * /enable(2) 
+
+    display(3).AR =
+          clear 
+
+    display(3).SP =
+          GND
+
+    display(3).C =
+          clock 
+
+    display(4).D =
+          /enable(0) * enable(1) * enable(2) 
+
+    display(4).AR =
+          clear 
+
+    display(4).SP =
+          GND
+
+    display(4).C =
+          clock 
+
+    display(5).D =
+          /enable(0) * enable(1) * enable(2) 
+
+    display(5).AR =
+          clear 
+
+    display(5).SP =
+          GND
+
+    display(5).C =
+          clock 
+
+    display(6).D =
+          /enable(0) * enable(2) 
+        + enable(1) * /enable(2) 
+
+    display(6).AR =
+          clear 
+
+    display(6).SP =
+          GND
+
+    display(6).C =
+          clock 
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN RULE CHECK          (01:01:57)
+
+Messages:
+                 None.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
+PINOUT INFORMATION   (01:01:57)
+</CYPRESSTAG>
+Messages:
+  Information: Checking for duplicate NODE logic.
+                 None.
+
+
+                                 C22V10
+                 __________________________________________
+          clock =| 1|                                  |24|* not used       
+      enable(2) =| 2|                                  |23|= display(6)     
+      enable(1) =| 3|                                  |22|= display(5)     
+      enable(0) =| 4|                                  |21|= display(2)     
+          clear =| 5|                                  |20|= anodo(2)       
+       not used *| 6|                                  |19|= anodo(0)       
+       not used *| 7|                                  |18|= anodo(1)       
+       not used *| 8|                                  |17|= display(1)     
+       not used *| 9|                                  |16|= display(4)     
+       not used *|10|                                  |15|= display(0)     
+       not used *|11|                                  |14|= display(3)     
+       not used *|12|                                  |13|* not used       
+                 __________________________________________
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
+RESOURCE UTILIZATION (01:01:57)
+</CYPRESSTAG>
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | Dedicated Inputs   |    4  |   11  |
+                 | Clock/Inputs       |    1  |    1  |
+                 | I/O Macrocells     |   10  |   10  |
+                 ______________________________________
+                                          15  /   22   = 68  %
+
+
+  Information: Output Logic Product Term Utilization.
+
+                  Node#  Output Signal Name  Used   Max
+                 ________________________________________
+                 | 14  |  display(3)      |   3  |   8  |
+                 | 15  |  display(0)      |   2  |  10  |
+                 | 16  |  display(4)      |   1  |  12  |
+                 | 17  |  display(1)      |   1  |  14  |
+                 | 18  |  anodo(1)        |   1  |  16  |
+                 | 19  |  anodo(0)        |   1  |  16  |
+                 | 20  |  anodo(2)        |   1  |  14  |
+                 | 21  |  display(2)      |   1  |  12  |
+                 | 22  |  display(5)      |   1  |  10  |
+                 | 23  |  display(6)      |   2  |   8  |
+                 | 25  |  Unused          |   0  |   1  |
+                 ________________________________________
+                                             14  / 121   = 11  %
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+JEDEC ASSEMBLE             (01:01:57)
+
+Messages:
+  Information: Output file 'Codigo_Marquesina.pin' created.
+  Information: Output file 'Codigo_Marquesina.jed' created.
+
+  Usercode:    
+  Checksum:    8388
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully at 01:01:57

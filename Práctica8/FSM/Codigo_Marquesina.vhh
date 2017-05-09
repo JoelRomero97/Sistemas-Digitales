@@ -1,0 +1,9 @@
+ENTITY practica8_marquesina IS
+    PORT (
+	clock : in std_logic  ; 
+	clear : in std_logic  ; 
+	enable : in std_logic_vector (2 downto 0) ; 
+	anodo : inout std_logic_vector (2 downto 0) ; 
+	display : inout std_logic_vector (6 downto 0)
+    ) ;
+END practica8_marquesina ;

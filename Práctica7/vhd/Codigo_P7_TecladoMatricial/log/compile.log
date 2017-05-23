@@ -1,7 +1,0 @@
- Compilation with file reorder...
- File: C:\Documents and Settings\USUARIO\Mis documentos\VHDL Practicas\Practicas Nayeli\Practica7\vhd\Codigo_P7_TecladoMatricial.vhd
- Compile Entity "practica7_tecladomatricial"
- Compile Architecture "DSMB" of Entity "practica7_tecladomatricial"
- Top-Level unit detected
- Entity  =>   practica7_tecladomatricial
- Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]

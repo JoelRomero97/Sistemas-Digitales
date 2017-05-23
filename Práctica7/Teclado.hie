@@ -1,0 +1,2 @@
+Teclado.vhd #Entity moore 4
+Teclado.vhd #Architecture a_moore moore 15

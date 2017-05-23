@@ -1,0 +1,2 @@
+ContadorDecada.vhd #Entity contadordecada 7
+ContadorDecada.vhd #Architecture acontadordecada contadordecada 16

@@ -1,8 +1,0 @@
-ENTITY practica5_b_contadorgenerico IS
-    PORT (
-	q : inout std_logic_vector (9 downto 0) ; 
-	clock : in std_logic  ; 
-	clear : in std_logic  ; 
-	enable : in std_logic 
-    ) ;
-END practica5_b_contadorgenerico ;

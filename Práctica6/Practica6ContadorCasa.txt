@@ -1,0 +1,44 @@
+library ieee;
+use ieee_logic_1164.all;
+
+entity casa is port (
+	clk,clr,e : in_std_logic;
+	salida : out std_logic_vector(6 downto 0)
+	);
+end casa;
+
+architecture a_casa of casa is 
+
+constant C: std_logic_vector(6 downto 0) :="1100110";
+constant A: std_logic_vector(6 downto 0) :="";
+constant S: std_logic_vector(6 downto 0) :="";
+
+constant Et0 : std_logic :="0";
+constant Et1 : std_logic :="1";
+
+constant E0 :std_logic_vector(7 downto 0):=Et0&C;
+constant E1 :std_logic_vector(7 downto 0):=Et0&A;
+constant E2 :std_logic_vector(7 downto 0):=Et0&S;
+constant E3 :std_logic_vector(7 downto 0):=Et1&A;
+
+signal estado: std_logic_vector(7 downto 0);
+begin
+
+		process(clk,clr)
+		begin
+			if(clr='1') then
+				estado<=E0;
+				elsif(clk'event and clk='1') then
+					if(e='1') then
+						case estado is
+							when E0=>estado<=E1;
+							when E1=>estado<=E2;
+							when E2=>estado<=E3;
+							when E3=>estado<=E0;
+							when others =>estado<=E0;
+						end case;
+					end if;
+			end if;
+		end process;
+	
+	salida<= estado(6 downto 0);

@@ -1,0 +1,31 @@
+Design: 18:28, miércoles, 24 de mayo de 2017
+Design: Opening design "C:\Documents and Settings\Administrador\Escritorio\DiseñoDigitales\Práctica10\SENSORES GAL2 YO\vhd\Sensores\Sensores.adf"
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+Compilation with file reorder...
+File: C:\Documents and Settings\Administrador\Escritorio\DiseñoDigitales\Práctica10\SENSORES GAL2 YO\vhd\Sensores.vhd
+Compile Entity "sensores"
+Compile Architecture "DSMB" of Entity "sensores"
+Top-Level unit detected
+Entity  =>   sensores
+Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+18:29, miércoles, 24 de mayo de 2017
+Simulation has been initialized
+Selected Top-Level: sensores (DSMB)
+KERNEL: stopped at time: 80 ns
+KERNEL: stopped at time: 160 ns
+KERNEL: stopped at time: 240 ns
+KERNEL: stopped at time: 320 ns
+KERNEL: stopped at time: 400 ns
+KERNEL: stopped at time: 480 ns
+KERNEL: stopped at time: 560 ns
+Simulation has been stopped

@@ -1,2 +1,2 @@
-Sensores.vhd #Entity gal2 6
-Sensores.vhd #Architecture agal2 gal2 21
+Sensores.vhd #Entity sensores 4
+Sensores.vhd #Architecture a_sensores sensores 21

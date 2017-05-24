@@ -1,15 +1,15 @@
-module gal2 ( 
-	selector,
-	display,
-	e0,
-	e1,
+module sensores ( 
 	clk,
-	clr
+	clr,
+	display,
+	uni,
+	dec,
+	sel
 	) ;
 
-inout [2:0] selector;
-inout [6:0] display;
-input [3:0] e0;
-input [2:0] e1;
 input  clk;
 input  clr;
+inout [6:0] display;
+input [3:0] uni;
+input [2:0] dec;
+input [2:0] sel;

@@ -1,78 +1,75 @@
-library ieee;
-use ieee.std_logic_unsigned.all;
-use ieee.std_logic_arith.all;
-use ieee.std_logic_1164.all;
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
 
-entity GAL2 is port (
-
-	selector: out std_logic_vector ( 2 downto 0 );--anillo
-	display : out std_logic_vector ( 6 downto 0 );--display
-	E0 : in std_logic_vector ( 3 downto 0 );--mux
-	E1 : in std_logic_vector ( 2 downto 0 );--mux
-	clk, clr : in std_logic--anillo
+ENTITY Sensores IS PORT
+(
+	CLK, CLR : IN STD_LOGIC;											--CLOCK Y CLEAR
+	DISPLAY : OUT STD_LOGIC_VECTOR (6 DOWNTO 0);						--DISPLAY DE 7 SEGMENTOS
+	UNI : IN STD_LOGIC_VECTOR (3 DOWNTO 0);								--SALIDA DE CONTADOR DECADA
+	DEC : IN STD_LOGIC_VECTOR (2 DOWNTO 0);								--SALIDA DE CONTADOR DECADA
+	SEL : STD_LOGIC_VECTOR (2 DOWNTO 0)									--SELECTOR DE MUX
 );
 
-attribute PIN_NUMBERS of GAL2 : entity is (
-"clk:1 clr:13 E0(3):2 E0(2):3 E0(1):4 E0(0):5 E1(2):6 E1(1):7 E1(0):8 "& 
-"display(6):21 display(5):20 display(4):19 display(3):18 display(2):17 display(1):16 display(0):15" );
+ATTRIBUTE PIN_NUMBERS OF Sensores : ENTITY IS
+	"DISPLAY(0):21 DISPLAY(1):20 DISPLAY(2):19 DISPLAY(3):18 DISPLAY(4):17 DISPLAY(5):16 DISPLAY(6):15 " &
+	"UNI(0):11 UNI(1):10 UNI(2):9 UNI(3):8 " &
+	"DEC(0):7 DEC(1):6 DEC(2):5 " &
+	"CLR:2 " &
+	"SEL(0):14 SEL(1):23 SEL(2):22 ";
+END Sensores;
 
-end entity;
+ARCHITECTURE A_Sensores OF Sensores IS
+	CONSTANT E1 : STD_LOGIC_VECTOR (3 DOWNTO 0) := '0'&DEC;				--E1 DEL MULTIPLEXOR
+	SIGNAL E2 : STD_LOGIC_VECTOR (3 DOWNTO 0) := "0000";				--E2 DEL MULTIPLEXOR
+	SIGNAL AN : STD_LOGIC_VECTOR (2 DOWNTO 0);							--ANILLO PARA CONTADOR
+	SIGNAL BCD : STD_LOGIC_VECTOR (3 DOWNTO 0);							--SALIDA DE MULTIPLEXOR
+BEGIN
 
-architecture AGAL2 of GAL2 is
+		--CONTADOR DE ANILLO
+		ContadorAnillo : PROCESS (CLK, CLR)
+		BEGIN 
+				IF (CLR = '1') THEN
+					AN <= "110";
+				ELSIF (CLK'EVENT AND CLK = '1') THEN
+					CASE AN IS
+						WHEN "110" => AN <= "101";
+						WHEN "101" => AN <= "011";
+						WHEN "011" => AN <= "110";
+						WHEN OTHERS => AN <= "---";
+					END CASE;
+				END IF;
+		END PROCESS ContadorAnillo;
 
-constant Q0 : std_logic_vector ( 2 downto 0 ) := "011";
-constant Q1 : std_logic_vector ( 2 downto 0 ) := "101";
-constant Q2 : std_logic_vector ( 2 downto 0 ) := "110";
-constant E2 : std_logic_vector ( 3 downto 0 ) := "0000";--ANILLO
-signal Ring : std_logic_vector ( 2 downto 0 );--ANILLO
-signal BCD : std_logic_vector ( 3 downto 0 );--ANILLO SALIDA
+		--MULTIPLEXOR
+		Multiplexor : PROCESS (BCD, UNI, DEC, E2, AN)
+		BEGIN
+				SEL <= AN;
+				IF (SEL = "110") THEN 
+					BCD <= UNI;
+				ELSIF (SEL = "101") THEN
+					BCD <= E1;
+				ELSIF (SEL = "011") THEN
+					BCD <= E2;
+				ELSE 
+					BCD <= "----";
+				END IF;
+		END PROCESS Multiplexor;
 
-begin
-
-	ContadorAnillo : process ( clr, clk ) 
-	begin
-		if ( clr = '1' ) then
-			Ring <= Q0;
-		elsif ( clk'event and clk = '1' ) then
-			case Ring is
-				when Q0 => Ring <= Q1;
-				when Q1 => Ring <= Q2;
-				when Q2 => Ring <= Q0;
-				when others => Ring <= ( others => '-' );
-			end case;
-		end if;
-	end process;
-
-	Multiplexor : process ( BCD, E0, E1, E2, Ring )
-	begin
-		if ( Ring = "011" ) then
-			BCD <= E2;
-		elsif ( Ring = "101" ) then
-			BCD <= '0'&E1;
-		elsif ( Ring = "110" ) then
-			BCD <= E0;
-		else 
-			BCD <= ( others => '-' );
-		end if;
-	end process;
-
-	Convertidor : process ( BCD )
-	begin
-		case BCD is
-			when "0000" => display <= "0000001";
-			when "0001" => display <= "1001111";
-			when "0010" => display <= "0010010";
-			when "0011" => display <= "0000110";
-			when "0100" => display <= "1001100";
-			when "0101" => display <= "0100100";
-			when "0110" => display <= "0100000";
-			when "0111" => display <= "0001111";
-			when "1000" => display <= "0000000";
-			when "1001" => display <= "0000100";
-			when others => display <= ( others => '-' );
-		end case;
-	end process;
-
-	selector <= Ring;
-
-end architecture;
+		--CONVERTIDOR DE CÓDIGO
+		Convertidor : PROCESS (BCD)
+		BEGIN
+				CASE BCD IS
+						WHEN "0000" => DISPLAY <= "0000001";		--0
+						WHEN "0001" => DISPLAY <= "1001111";		--1
+						WHEN "0010" => DISPLAY <= "0010010";		--2
+						WHEN "0011" => DISPLAY <= "0000110";		--3
+						WHEN "0100" => DISPLAY <= "1001100";		--4
+						WHEN "0101" => DISPLAY <= "0100100";		--5
+						WHEN "0110" => DISPLAY <= "0100000";		--6
+						WHEN "0111" => DISPLAY <= "0001111";		--7
+						WHEN "1000" => DISPLAY <= "0000000";		--8
+						WHEN "1001" => DISPLAY <= "0000100";		--9
+						WHEN OTHERS => DISPLAY <= "-------";
+				END CASE;
+		END PROCESS Convertidor; 
+END A_Sensores;

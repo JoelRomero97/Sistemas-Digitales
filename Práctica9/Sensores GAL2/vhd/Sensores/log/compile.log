@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: C:\Documents and Settings\Administrador\Escritorio\DiseñoDigitales\Práctica10\SENSORES GAL2 YO\vhd\Sensores.vhd
+ Compile Entity "sensores"
+ Compile Architecture "DSMB" of Entity "sensores"
+ Top-Level unit detected
+ Entity  =>   sensores
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]

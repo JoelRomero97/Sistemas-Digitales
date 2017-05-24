@@ -17,7 +17,7 @@ Options:    -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-15pc -b Senso
 ======================================================================
 
 vhdlfe V6.3 IR 35:  VHDL parser
-Tue May 23 20:47:02 2017
+Wed May 24 18:34:44 2017
 
 Library 'work' => directory 'lc22v10'
 Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
@@ -25,68 +25,44 @@ Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
 Library 'ieee' => directory 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work'
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
-Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\syntocyp.vif'.
-Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\synusgnd.vif'.
-Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\synarith.vif'.
-Sensores.vhd (line 48, col 22):  Note: Substituting module 'cmp_vv_us_bl' for '='.
-Sensores.vhd (line 50, col 25):  Note: Substituting module 'cmp_vv_us_bl' for '='.
-Sensores.vhd (line 52, col 25):  Note: Substituting module 'cmp_vv_us_bl' for '='.
 
 vhdlfe:  No errors.
 
 
 tovif V6.3 IR 35:  High-level synthesis
-Tue May 23 20:47:03 2017
+Wed May 24 18:34:44 2017
 
 Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
-Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\syntocyp.vif'.
-Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\synusgnd.vif'.
-Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\synarith.vif'.
-Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\lpmpkg.vif'.
-Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\rtlpkg.vif'.
-Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_cnst.vif'.
-Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\syntocyp.vif'.
+Sensores.vhd (line 47, col 12):  Warning: (W479) 'sel' should be referenced in the sensitivity list.
+Sensores.vhd (line 49, col 15):  Warning: (W479) 'sel' should be referenced in the sensitivity list.
+Sensores.vhd (line 51, col 15):  Warning: (W479) 'sel' should be referenced in the sensitivity list.
 
-tovif:  No errors.
+tovif:  No errors.  3 warnings.
 
 
 topld V6.3 IR 35:  Synthesis and optimization
-Tue May 23 20:47:03 2017
+Wed May 24 18:34:44 2017
 
 Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
-Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\syntocyp.vif'.
-Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\synusgnd.vif'.
-Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\synarith.vif'.
-Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\lpmpkg.vif'.
-Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\rtlpkg.vif'.
-Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_cnst.vif'.
-Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\syntocyp.vif'.
-Linking 'C:\Archivos de programa\Cypress\Warp\lib\lc22v10\stdlogic\c22v10.vif'.
 
 ----------------------------------------------------------
 Detecting unused logic.
 ----------------------------------------------------------
-    User names
-	\MODULE_3:g2:a0:eqa_2\
-	\MODULE_3:g2:a0:eqa_1\
-	\MODULE_3:g2:a0:eqa_0\
 
 
-Deleted 3 User equations/components.
-Deleted 4 Synthesized equations/components.
 
 ------------------------------------------------------
 Alias Detection
 ------------------------------------------------------
 
 ------------------------------------------------------
-Aliased 0 equations, 20 wires.
+Aliased 0 equations, 15 wires.
 ------------------------------------------------------
 
 ----------------------------------------------------------
@@ -96,7 +72,7 @@ Circuit simplification
 ----------------------------------------------------------
 Circuit simplification results:
 
-	Expanded 9 signals.
+	Expanded 5 signals.
 	Turned 0 signals into soft nodes.
 	Maximum default expansion cost was set at 10.
 ----------------------------------------------------------
@@ -108,14 +84,14 @@ Alias Detection
 ------------------------------------------------------
 Aliased 0 equations, 0 wires.
 ------------------------------------------------------
-Created 56 PLD nodes.
+Created 39 PLD nodes.
 
 topld:  No errors.
 
 ----------------------------------------------------------------------------
 PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-DESIGN HEADER INFORMATION  (20:47:04)
+DESIGN HEADER INFORMATION  (18:34:45)
 
 Input File(s): Sensores.pla
 Device       : C22V10
@@ -134,17 +110,19 @@ Completed Successfully
 ----------------------------------------------------------------------------
 PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-OPTIMIZATION OPTIONS       (20:47:04)
+OPTIMIZATION OPTIONS       (18:34:45)
 
 Messages:
+  Information: Process virtual 'an_0'an_0 ... expanded.
+  Information: Process virtual 'an_1'an_1 ... expanded.
+  Information: Process virtual 'an_2'an_2 ... expanded.
   Information: Optimizing logic using best output polarity for signals:
          display(0) display(1) display(2) display(3) display(4) display(5)
          display(6)
 
   Information: Selected logic optimization OFF for signals:
-         selector(0).D selector(0).AP selector(0).C selector(1).D
-         selector(1).AP selector(1).C selector(2).D selector(2).AR
-         selector(2).C
+         sel(0).D sel(0).AR sel(0).C sel(1).D sel(1).AP sel(1).C sel(2).D
+         sel(2).AP sel(2).C
 
 
 
@@ -167,23 +145,22 @@ Completed Successfully
 ----------------------------------------------------------------------------
 PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-OPTIMIZATION OPTIONS       (20:47:04)
+OPTIMIZATION OPTIONS       (18:34:45)
 
 Messages:
   Information: Optimizing Banked Preset/Reset requirements.
-  Information: Selecting D register equation as minimal for signal selector(2)
-  Information: Inverting Preset/Reset & output logic polarity for selector(0).
-  Information: Selecting D register equation as minimal for signal selector(0)
-  Information: Inverting Preset/Reset & output logic polarity for selector(1).
-  Information: Selecting D register equation as minimal for signal selector(1)
+  Information: Selecting D register equation as minimal for signal sel(0)
+  Information: Inverting Preset/Reset & output logic polarity for sel(1).
+  Information: Selecting D register equation as minimal for signal sel(1)
+  Information: Inverting Preset/Reset & output logic polarity for sel(2).
+  Information: Selecting D register equation as minimal for signal sel(2)
   Information: Optimizing logic without changing polarity for signals:
          display(0) display(1) display(2) display(3) display(4) display(5)
          display(6)
 
   Information: Selected logic optimization OFF for signals:
-         selector(0).D selector(0).AR selector(0).SP selector(0).C
-         selector(1).D selector(1).AR selector(1).SP selector(1).C
-         selector(2).D selector(2).AR selector(2).SP selector(2).C
+         sel(0).D sel(0).AR sel(0).SP sel(0).C sel(1).D sel(1).AR sel(1).SP
+         sel(1).C sel(2).D sel(2).AR sel(2).SP sel(2).C
 
 
 
@@ -206,7 +183,7 @@ Completed Successfully
 ----------------------------------------------------------------------------
 PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-OPTIMIZATION OPTIONS       (20:47:04)
+OPTIMIZATION OPTIONS       (18:34:45)
 
 Messages:
 
@@ -219,129 +196,130 @@ Completed Successfully
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
 <CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
-DESIGN EQUATIONS           (20:47:04)
+DESIGN EQUATIONS           (18:34:45)
 </CYPRESSTAG>
 
     display(0) =
-          e1(0) * e1(1) * e1(2) * selector(0).Q * /selector(1).Q * 
-          selector(2).Q 
-        + /e1(1) * /e1(2) * selector(0).Q * /selector(1).Q * selector(2).Q 
-        + e0(0) * e0(1) * e0(2) * selector(1).Q 
-        + /e0(1) * /e0(2) * /e0(3) * selector(1).Q 
-        + e0(0) * e0(1) * e0(2) * /selector(0).Q 
-        + /e0(1) * /e0(2) * /e0(3) * /selector(0).Q 
-        + e0(0) * e0(1) * e0(2) * /selector(2).Q 
-        + /e0(1) * /e0(2) * /e0(3) * /selector(2).Q 
-        + selector(0).Q * selector(1).Q * /selector(2).Q 
+          dec(2) * /sel(0).Q * /sel(1).Q * uni(0) * uni(1) 
+        + dec(1) * /sel(0).Q * /sel(1).Q * uni(0) * uni(2) 
+        + dec(1) * dec(2) * /sel(0).Q * /sel(1).Q * uni(0) 
+        + dec(0) * /sel(0).Q * /sel(1).Q * uni(1) * uni(2) 
+        + dec(0) * dec(2) * /sel(0).Q * /sel(1).Q * uni(1) 
+        + dec(0) * dec(1) * /sel(0).Q * /sel(1).Q * uni(2) 
+        + /dec(1) * /dec(2) * /uni(1) * /uni(2) * /uni(3) 
+        + /sel(0).Q * uni(0) * uni(1) * uni(2) 
+        + dec(0) * dec(1) * dec(2) * /sel(1).Q 
+        + sel(1).Q * /uni(1) * /uni(2) * /uni(3) 
+        + /dec(1) * /dec(2) * sel(0).Q 
+        + sel(0).Q * sel(1).Q 
 
     display(1) =
-          e0(0) * /e0(2) * /e0(3) * selector(1).Q * selector(2).Q 
-        + e1(0) * e1(1) * selector(0).Q * /selector(1).Q * selector(2).Q 
-        + e1(1) * /e1(2) * selector(0).Q * /selector(1).Q * selector(2).Q 
-        + e1(0) * /e1(2) * selector(0).Q * /selector(1).Q * selector(2).Q 
-        + e0(0) * /e0(2) * /e0(3) * /selector(1).Q * /selector(2).Q 
-        + e0(0) * e0(1) * selector(1).Q * selector(2).Q 
-        + e0(1) * /e0(2) * selector(1).Q * selector(2).Q 
-        + e0(0) * /e0(2) * /e0(3) * /selector(0).Q 
-        + e0(0) * e0(1) * /selector(1).Q * /selector(2).Q 
-        + e0(1) * /e0(2) * /selector(1).Q * /selector(2).Q 
-        + e0(0) * e0(1) * /selector(0).Q 
-        + e0(1) * /e0(2) * /selector(0).Q 
+          /sel(0).Q * sel(1).Q * uni(0) * /uni(2) * /uni(3) 
+        + /dec(2) * /sel(0).Q * uni(0) * /uni(2) * /uni(3) 
+        + dec(0) * /dec(2) * /sel(1).Q * /uni(2) * /uni(3) 
+        + dec(1) * /dec(2) * sel(0).Q * /sel(1).Q 
+        + dec(0) * /dec(2) * sel(0).Q * /sel(1).Q 
+        + dec(1) * /sel(0).Q * /sel(1).Q * uni(0) 
+        + dec(0) * /sel(0).Q * /sel(1).Q * uni(1) 
+        + /sel(0).Q * sel(1).Q * uni(1) * /uni(2) 
+        + /dec(2) * /sel(0).Q * uni(1) * /uni(2) 
+        + dec(1) * /dec(2) * /sel(1).Q * /uni(2) 
+        + /sel(0).Q * uni(0) * uni(1) 
+        + dec(0) * dec(1) * /sel(1).Q 
 
     display(2) =
-          /e1(1) * e1(2) * selector(0).Q * /selector(1).Q * selector(2).Q 
-        + /e0(1) * e0(2) * selector(1).Q * selector(2).Q 
-        + e1(0) * selector(0).Q * /selector(1).Q * selector(2).Q 
-        + /e0(1) * e0(2) * /selector(1).Q * /selector(2).Q 
-        + e0(0) * selector(1).Q * selector(2).Q 
-        + /e0(1) * e0(2) * /selector(0).Q 
-        + e0(0) * /selector(1).Q * /selector(2).Q 
-        + e0(0) * /selector(0).Q 
+          /dec(1) * dec(2) * sel(0).Q * /sel(1).Q 
+        + /sel(0).Q * sel(1).Q * /uni(1) * uni(2) 
+        + /dec(1) * /sel(0).Q * /uni(1) * uni(2) 
+        + /dec(1) * dec(2) * /sel(1).Q * /uni(1) 
+        + /sel(0).Q * uni(0) 
+        + dec(0) * /sel(1).Q 
 
     display(3) =
-          e0(0) * /e0(1) * /e0(2) * /e0(3) * selector(1).Q * selector(2).Q 
-        + e1(0) * e1(1) * e1(2) * selector(0).Q * /selector(1).Q * 
-          selector(2).Q 
-        + /e1(0) * /e1(1) * e1(2) * selector(0).Q * /selector(1).Q * 
-          selector(2).Q 
-        + e1(0) * /e1(1) * /e1(2) * selector(0).Q * /selector(1).Q * 
-          selector(2).Q 
-        + e0(0) * /e0(1) * /e0(2) * /e0(3) * /selector(1).Q * 
-          /selector(2).Q 
-        + e0(0) * e0(1) * e0(2) * selector(1).Q * selector(2).Q 
-        + /e0(0) * /e0(1) * e0(2) * selector(1).Q * selector(2).Q 
-        + e0(0) * /e0(1) * /e0(2) * /e0(3) * /selector(0).Q 
-        + e0(0) * e0(1) * e0(2) * /selector(1).Q * /selector(2).Q 
-        + /e0(0) * /e0(1) * e0(2) * /selector(1).Q * /selector(2).Q 
-        + e0(0) * e0(1) * e0(2) * /selector(0).Q 
-        + /e0(0) * /e0(1) * e0(2) * /selector(0).Q 
+          /dec(1) * /dec(2) * /sel(0).Q * uni(0) * /uni(1) * /uni(2) * 
+          /uni(3) 
+        + dec(0) * /dec(1) * /dec(2) * /sel(1).Q * /uni(1) * /uni(2) * 
+          /uni(3) 
+        + /dec(0) * /dec(1) * /sel(0).Q * /uni(0) * /uni(1) * uni(2) 
+        + /dec(0) * /dec(1) * dec(2) * /sel(1).Q * /uni(0) * /uni(1) 
+        + /sel(0).Q * sel(1).Q * uni(0) * /uni(1) * /uni(2) * /uni(3) 
+        + /dec(0) * /dec(1) * dec(2) * sel(0).Q * /sel(1).Q 
+        + dec(0) * /dec(1) * /dec(2) * sel(0).Q * /sel(1).Q 
+        + dec(2) * /sel(0).Q * /sel(1).Q * uni(0) * uni(1) 
+        + dec(1) * /sel(0).Q * /sel(1).Q * uni(0) * uni(2) 
+        + dec(1) * dec(2) * /sel(0).Q * /sel(1).Q * uni(0) 
+        + dec(0) * /sel(0).Q * /sel(1).Q * uni(1) * uni(2) 
+        + dec(0) * dec(2) * /sel(0).Q * /sel(1).Q * uni(1) 
+        + dec(0) * dec(1) * /sel(0).Q * /sel(1).Q * uni(2) 
+        + /sel(0).Q * sel(1).Q * /uni(0) * /uni(1) * uni(2) 
+        + /sel(0).Q * uni(0) * uni(1) * uni(2) 
+        + dec(0) * dec(1) * dec(2) * /sel(1).Q 
 
     display(4) =
-          /e1(0) * e1(1) * /e1(2) * selector(0).Q * /selector(1).Q * 
-          selector(2).Q 
-        + /e0(0) * e0(1) * /e0(2) * selector(1).Q * selector(2).Q 
-        + /e0(0) * e0(1) * /e0(2) * /selector(1).Q * /selector(2).Q 
-        + /e0(0) * e0(1) * /e0(2) * /selector(0).Q 
+          /dec(0) * /dec(2) * /sel(0).Q * /uni(0) * uni(1) * /uni(2) 
+        + /dec(0) * dec(1) * /dec(2) * /sel(1).Q * /uni(0) * /uni(2) 
+        + /dec(0) * dec(1) * /dec(2) * sel(0).Q * /sel(1).Q 
+        + /sel(0).Q * sel(1).Q * /uni(0) * uni(1) * /uni(2) 
 
-    display(5) =
-          /e1(0) * e1(1) * e1(2) * selector(0).Q * /selector(1).Q * 
-          selector(2).Q 
-        + e1(0) * /e1(1) * e1(2) * selector(0).Q * /selector(1).Q * 
-          selector(2).Q 
-        + /e0(0) * e0(1) * e0(2) * selector(1).Q * selector(2).Q 
-        + e0(0) * /e0(1) * e0(2) * selector(1).Q * selector(2).Q 
-        + /e0(0) * e0(1) * e0(2) * /selector(1).Q * /selector(2).Q 
-        + e0(0) * /e0(1) * e0(2) * /selector(1).Q * /selector(2).Q 
-        + /e0(0) * e0(1) * e0(2) * /selector(0).Q 
-        + e0(0) * /e0(1) * e0(2) * /selector(0).Q 
+    /display(5) =
+          dec(1) * /sel(0).Q * /sel(1).Q * uni(0) 
+        + dec(0) * /sel(0).Q * /sel(1).Q * uni(1) 
+        + /dec(0) * /dec(1) * /uni(0) * /uni(1) 
+        + /dec(0) * /dec(1) * sel(0).Q 
+        + /sel(0).Q * uni(0) * uni(1) 
+        + dec(0) * dec(1) * /sel(1).Q 
+        + sel(1).Q * /uni(0) * /uni(1) 
+        + sel(0).Q * sel(1).Q 
+        + /dec(2) * sel(0).Q 
+        + sel(1).Q * /uni(2) 
+        + /dec(2) * /uni(2) 
 
     display(6) =
-          e0(0) * /e0(1) * /e0(2) * /e0(3) * selector(1).Q * selector(2).Q 
-        + /e1(0) * /e1(1) * e1(2) * selector(0).Q * /selector(1).Q * 
-          selector(2).Q 
-        + e1(0) * /e1(1) * /e1(2) * selector(0).Q * /selector(1).Q * 
-          selector(2).Q 
-        + e0(0) * /e0(1) * /e0(2) * /e0(3) * /selector(1).Q * 
-          /selector(2).Q 
-        + /e0(0) * /e0(1) * e0(2) * selector(1).Q * selector(2).Q 
-        + e0(0) * /e0(1) * /e0(2) * /e0(3) * /selector(0).Q 
-        + /e0(0) * /e0(1) * e0(2) * /selector(1).Q * /selector(2).Q 
-        + /e0(0) * /e0(1) * e0(2) * /selector(0).Q 
+          /dec(1) * /dec(2) * /sel(0).Q * uni(0) * /uni(1) * /uni(2) * 
+          /uni(3) 
+        + dec(0) * /dec(1) * /dec(2) * /sel(1).Q * /uni(1) * /uni(2) * 
+          /uni(3) 
+        + /dec(0) * /dec(1) * /sel(0).Q * /uni(0) * /uni(1) * uni(2) 
+        + /dec(0) * /dec(1) * dec(2) * /sel(1).Q * /uni(0) * /uni(1) 
+        + /sel(0).Q * sel(1).Q * uni(0) * /uni(1) * /uni(2) * /uni(3) 
+        + /dec(0) * /dec(1) * dec(2) * sel(0).Q * /sel(1).Q 
+        + dec(0) * /dec(1) * /dec(2) * sel(0).Q * /sel(1).Q 
+        + /sel(0).Q * sel(1).Q * /uni(0) * /uni(1) * uni(2) 
 
-    /selector(0).D =
-          /selector(1).Q 
+    sel(0).D =
+          sel(2).Q 
 
-    selector(0).AR =
+    sel(0).AR =
           clr 
 
-    selector(0).SP =
+    sel(0).SP =
           GND
 
-    selector(0).C =
+    sel(0).C =
           clk 
 
-    /selector(1).D =
-          /selector(2).Q 
+    /sel(1).D =
+          /sel(0).Q 
 
-    selector(1).AR =
+    sel(1).AR =
           clr 
 
-    selector(1).SP =
+    sel(1).SP =
           GND
 
-    selector(1).C =
+    sel(1).C =
           clk 
 
-    selector(2).D =
-          selector(0).Q 
+    /sel(2).D =
+          /sel(1).Q 
 
-    selector(2).AR =
+    sel(2).AR =
           clr 
 
-    selector(2).SP =
+    sel(2).SP =
           GND
 
-    selector(2).C =
+    sel(2).C =
           clk 
 
 
@@ -349,7 +327,7 @@ Completed Successfully
 ----------------------------------------------------------------------------
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-DESIGN RULE CHECK          (20:47:04)
+DESIGN RULE CHECK          (18:34:45)
 
 Messages:
                  None.
@@ -363,7 +341,7 @@ Completed Successfully
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
 <CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
-PINOUT INFORMATION   (20:47:04)
+PINOUT INFORMATION   (18:34:45)
 </CYPRESSTAG>
 Messages:
   Information: Checking for duplicate NODE logic.
@@ -373,17 +351,17 @@ Messages:
                                  C22V10
                  __________________________________________
             clk =| 1|                                  |24|* not used       
-          e0(3) =| 2|                                  |23|= selector(1)    
-          e0(2) =| 3|                                  |22|= selector(0)    
-          e0(1) =| 4|                                  |21|= display(6)     
-          e0(0) =| 5|                                  |20|= display(5)     
-          e1(2) =| 6|                                  |19|= display(4)     
-          e1(1) =| 7|                                  |18|= display(3)     
-          e1(0) =| 8|                                  |17|= display(2)     
-       not used *| 9|                                  |16|= display(1)     
-       not used *|10|                                  |15|= display(0)     
-       not used *|11|                                  |14|= selector(2)    
-       not used *|12|                                  |13|= clr            
+            clr =| 2|                                  |23|= sel(1)         
+       not used *| 3|                                  |22|= sel(2)         
+       not used *| 4|                                  |21|= display(0)     
+         dec(2) =| 5|                                  |20|= display(1)     
+         dec(1) =| 6|                                  |19|= display(2)     
+         dec(0) =| 7|                                  |18|= display(3)     
+         uni(3) =| 8|                                  |17|= display(4)     
+         uni(2) =| 9|                                  |16|= display(5)     
+         uni(1) =|10|                                  |15|= display(6)     
+         uni(0) =|11|                                  |14|= sel(0)         
+       not used *|12|                                  |13|* not used       
                  __________________________________________
 
 
@@ -395,7 +373,7 @@ Completed Successfully
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
 <CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
-RESOURCE UTILIZATION (20:47:04)
+RESOURCE UTILIZATION (18:34:45)
 </CYPRESSTAG>
   Information: Macrocell Utilization.
 
@@ -412,37 +390,37 @@ RESOURCE UTILIZATION (20:47:04)
 
                   Node#  Output Signal Name  Used   Max
                  ________________________________________
-                 | 14  |  selector(2)     |   1  |   8  |
-                 | 15  |  display(0)      |   9  |  10  |
-                 | 16  |  display(1)      |  12  |  12  |
-                 | 17  |  display(2)      |   8  |  14  |
-                 | 18  |  display(3)      |  12  |  16  |
-                 | 19  |  display(4)      |   4  |  16  |
-                 | 20  |  display(5)      |   8  |  14  |
-                 | 21  |  display(6)      |   8  |  12  |
-                 | 22  |  selector(0)     |   1  |  10  |
-                 | 23  |  selector(1)     |   1  |   8  |
+                 | 14  |  sel(0)          |   1  |   8  |
+                 | 15  |  display(6)      |   8  |  10  |
+                 | 16  |  display(5)      |  11  |  12  |
+                 | 17  |  display(4)      |   4  |  14  |
+                 | 18  |  display(3)      |  16  |  16  |
+                 | 19  |  display(2)      |   6  |  16  |
+                 | 20  |  display(1)      |  12  |  14  |
+                 | 21  |  display(0)      |  12  |  12  |
+                 | 22  |  sel(2)          |   1  |  10  |
+                 | 23  |  sel(1)          |   1  |   8  |
                  | 25  |  Unused          |   0  |   1  |
                  ________________________________________
-                                             64  / 121   = 52  %
+                                             72  / 121   = 59  %
 
 
 Completed Successfully  
 ----------------------------------------------------------------------------
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-JEDEC ASSEMBLE             (20:47:04)
+JEDEC ASSEMBLE             (18:34:45)
 
 Messages:
   Information: Output file 'Sensores.pin' created.
   Information: Output file 'Sensores.jed' created.
 
   Usercode:    
-  Checksum:    7A5A
+  Checksum:    A973
 
 
 
 Summary:
                  Error Count = 0      Warning Count = 0
 
-Completed Successfully at 20:47:04
+Completed Successfully at 18:34:45

@@ -1,10 +1,10 @@
-ENTITY gal2 IS
+ENTITY sensores IS
     PORT (
-	selector : inout std_logic_vector (2 downto 0) ; 
-	display : inout std_logic_vector (6 downto 0) ; 
-	e0 : in std_logic_vector (3 downto 0) ; 
-	e1 : in std_logic_vector (2 downto 0) ; 
 	clk : in std_logic  ; 
-	clr : in std_logic 
+	clr : in std_logic  ; 
+	display : inout std_logic_vector (6 downto 0) ; 
+	uni : in std_logic_vector (3 downto 0) ; 
+	dec : in std_logic_vector (2 downto 0) ; 
+	sel : in std_logic_vector (2 downto 0)
     ) ;
-END gal2 ;
+END sensores ;

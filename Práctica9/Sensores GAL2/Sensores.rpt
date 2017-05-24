@@ -17,7 +17,7 @@ Options:    -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-15pc -b Senso
 ======================================================================
 
 vhdlfe V6.3 IR 35:  VHDL parser
-Wed May 17 12:41:03 2017
+Tue May 23 20:47:02 2017
 
 Library 'work' => directory 'lc22v10'
 Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
@@ -36,7 +36,7 @@ vhdlfe:  No errors.
 
 
 tovif V6.3 IR 35:  High-level synthesis
-Wed May 17 12:41:03 2017
+Tue May 23 20:47:03 2017
 
 Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
@@ -54,7 +54,7 @@ tovif:  No errors.
 
 
 topld V6.3 IR 35:  Synthesis and optimization
-Wed May 17 12:41:03 2017
+Tue May 23 20:47:03 2017
 
 Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
@@ -115,7 +115,7 @@ topld:  No errors.
 ----------------------------------------------------------------------------
 PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-DESIGN HEADER INFORMATION  (12:41:06)
+DESIGN HEADER INFORMATION  (20:47:04)
 
 Input File(s): Sensores.pla
 Device       : C22V10
@@ -134,7 +134,7 @@ Completed Successfully
 ----------------------------------------------------------------------------
 PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-OPTIMIZATION OPTIONS       (12:41:06)
+OPTIMIZATION OPTIONS       (20:47:04)
 
 Messages:
   Information: Optimizing logic using best output polarity for signals:
@@ -167,7 +167,7 @@ Completed Successfully
 ----------------------------------------------------------------------------
 PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-OPTIMIZATION OPTIONS       (12:41:06)
+OPTIMIZATION OPTIONS       (20:47:04)
 
 Messages:
   Information: Optimizing Banked Preset/Reset requirements.
@@ -206,7 +206,7 @@ Completed Successfully
 ----------------------------------------------------------------------------
 PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-OPTIMIZATION OPTIONS       (12:41:06)
+OPTIMIZATION OPTIONS       (20:47:04)
 
 Messages:
 
@@ -219,7 +219,7 @@ Completed Successfully
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
 <CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
-DESIGN EQUATIONS           (12:41:06)
+DESIGN EQUATIONS           (20:47:04)
 </CYPRESSTAG>
 
     display(0) =
@@ -349,7 +349,7 @@ Completed Successfully
 ----------------------------------------------------------------------------
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-DESIGN RULE CHECK          (12:41:06)
+DESIGN RULE CHECK          (20:47:04)
 
 Messages:
                  None.
@@ -363,7 +363,7 @@ Completed Successfully
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
 <CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
-PINOUT INFORMATION   (12:41:06)
+PINOUT INFORMATION   (20:47:04)
 </CYPRESSTAG>
 Messages:
   Information: Checking for duplicate NODE logic.
@@ -395,7 +395,7 @@ Completed Successfully
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
 <CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
-RESOURCE UTILIZATION (12:41:06)
+RESOURCE UTILIZATION (20:47:04)
 </CYPRESSTAG>
   Information: Macrocell Utilization.
 
@@ -431,7 +431,7 @@ Completed Successfully
 ----------------------------------------------------------------------------
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-JEDEC ASSEMBLE             (12:41:06)
+JEDEC ASSEMBLE             (20:47:04)
 
 Messages:
   Information: Output file 'Sensores.pin' created.
@@ -445,4 +445,4 @@ Messages:
 Summary:
                  Error Count = 0      Warning Count = 0
 
-Completed Successfully at 12:41:06
+Completed Successfully at 20:47:04

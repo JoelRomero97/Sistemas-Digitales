@@ -1,0 +1,47 @@
+Design: 11:24, miércoles, 24 de mayo de 2017
+Design: Opening design "C:\Documents and Settings\Administrador\Escritorio\DiseñoDigitales\Práctica7\vhd\Teclado\Teclado.adf"
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+Compilation with file reorder...
+File: C:\Documents and Settings\Administrador\Escritorio\DiseñoDigitales\Práctica7\vhd\Teclado.vhd
+Compile Entity "moore"
+Compile Architecture "DSMB" of Entity "moore"
+Top-Level unit detected
+Entity  =>   moore
+Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+11:26, miércoles, 24 de mayo de 2017
+Simulation has been initialized
+Selected Top-Level: moore (DSMB)
+KERNEL: stopped at time: 40 ns
+KERNEL: stopped at time: 80 ns
+KERNEL: stopped at time: 120 ns
+KERNEL: stopped at time: 160 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: stopped at time: 240 ns
+KERNEL: stopped at time: 280 ns
+KERNEL: stopped at time: 320 ns
+KERNEL: stopped at time: 360 ns
+KERNEL: stopped at time: 400 ns
+KERNEL: stopped at time: 440 ns
+KERNEL: stopped at time: 480 ns
+KERNEL: stopped at time: 520 ns
+KERNEL: stopped at time: 560 ns
+KERNEL: stopped at time: 600 ns
+KERNEL: stopped at time: 640 ns
+KERNEL: stopped at time: 680 ns
+KERNEL: stopped at time: 720 ns
+KERNEL: stopped at time: 760 ns
+KERNEL: stopped at time: 800 ns
+KERNEL: stopped at time: 840 ns
+KERNEL: stopped at time: 880 ns
+KERNEL: stopped at time: 920 ns
+Simulation has been stopped

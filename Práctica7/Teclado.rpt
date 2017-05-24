@@ -13,11 +13,11 @@
 
 ======================================================================
 Compiling:  Teclado.vhd
-Options:    -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-15pc -b Teclado.vhd -u Teclado.hie
+Options:    -m -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-15pc -b Teclado.vhd -u Teclado.hie
 ======================================================================
 
 vhdlfe V6.3 IR 35:  VHDL parser
-Tue May 23 14:13:33 2017
+Wed May 24 11:23:48 2017
 
 Library 'work' => directory 'lc22v10'
 Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
@@ -30,7 +30,7 @@ vhdlfe:  No errors.
 
 
 tovif V6.3 IR 35:  High-level synthesis
-Tue May 23 14:13:33 2017
+Wed May 24 11:23:48 2017
 
 Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
@@ -41,7 +41,7 @@ tovif:  No errors.
 
 
 topld V6.3 IR 35:  Synthesis and optimization
-Tue May 23 14:13:33 2017
+Wed May 24 11:23:48 2017
 
 Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
@@ -88,7 +88,7 @@ topld:  No errors.
 ----------------------------------------------------------------------------
 PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-DESIGN HEADER INFORMATION  (14:13:34)
+DESIGN HEADER INFORMATION  (11:23:49)
 
 Input File(s): Teclado.pla
 Device       : C22V10
@@ -107,7 +107,7 @@ Completed Successfully
 ----------------------------------------------------------------------------
 PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-OPTIMIZATION OPTIONS       (14:13:34)
+OPTIMIZATION OPTIONS       (11:23:49)
 
 Messages:
   Information: Process virtual '\display(0)D\'\display(0)D\ ... expanded.
@@ -122,10 +122,11 @@ Messages:
          display(5).D display(6).D
 
   Information: Selected logic optimization OFF for signals:
-         display(0).AR display(0).C display(1).AR display(1).C display(2).AR
-         display(2).C display(3).AR display(3).C display(4).AR display(4).C
-         display(5).AR display(5).C display(6).AR display(6).C q(0).D q(0).AR
-         q(0).C q(1).D q(1).AR q(1).C q(2).D q(2).AP q(2).C
+         columna(0).D columna(0).AR columna(0).C columna(1).D columna(1).AR
+         columna(1).C columna(2).D columna(2).AP columna(2).C display(0).AR
+         display(0).C display(1).AR display(1).C display(2).AR display(2).C
+         display(3).AR display(3).C display(4).AR display(4).C display(5).AR
+         display(5).C display(6).AR display(6).C
 
 
 
@@ -148,12 +149,12 @@ Completed Successfully
 ----------------------------------------------------------------------------
 PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-OPTIMIZATION OPTIONS       (14:13:35)
+OPTIMIZATION OPTIONS       (11:23:49)
 
 Messages:
   Information: Optimizing Banked Preset/Reset requirements.
-  Information: Selecting D register equation as minimal for signal q(1)
-  Information: Selecting D register equation as minimal for signal q(0)
+  Information: Selecting D register equation as minimal for signal columna(1)
+  Information: Selecting D register equation as minimal for signal columna(0)
   Information: Selecting D register equation as minimal for signal display(6)
   Information: Selecting D register equation as minimal for signal display(5)
   Information: Selecting D register equation as minimal for signal display(4)
@@ -161,19 +162,20 @@ Messages:
   Information: Selecting D register equation as minimal for signal display(2)
   Information: Selecting D register equation as minimal for signal display(1)
   Information: Selecting D register equation as minimal for signal display(0)
-  Information: Inverting Preset/Reset & output logic polarity for q(2).
-  Information: Selecting D register equation as minimal for signal q(2)
+  Information: Inverting Preset/Reset & output logic polarity for columna(2).
+  Information: Selecting D register equation as minimal for signal columna(2)
   Information: Optimizing logic without changing polarity for signals:
          display(0).D display(1).D display(2).D display(3).D display(4).D
          display(5).D display(6).D
 
   Information: Selected logic optimization OFF for signals:
-         display(0).AR display(0).SP display(0).C display(1).AR display(1).SP
-         display(1).C display(2).AR display(2).SP display(2).C display(3).AR
-         display(3).SP display(3).C display(4).AR display(4).SP display(4).C
-         display(5).AR display(5).SP display(5).C display(6).AR display(6).SP
-         display(6).C q(0).D q(0).AR q(0).SP q(0).C q(1).D q(1).AR q(1).SP
-         q(1).C q(2).D q(2).AR q(2).SP q(2).C
+         columna(0).D columna(0).AR columna(0).SP columna(0).C columna(1).D
+         columna(1).AR columna(1).SP columna(1).C columna(2).D columna(2).AR
+         columna(2).SP columna(2).C display(0).AR display(0).SP display(0).C
+         display(1).AR display(1).SP display(1).C display(2).AR display(2).SP
+         display(2).C display(3).AR display(3).SP display(3).C display(4).AR
+         display(4).SP display(4).C display(5).AR display(5).SP display(5).C
+         display(6).AR display(6).SP display(6).C
 
 
 
@@ -196,7 +198,7 @@ Completed Successfully
 ----------------------------------------------------------------------------
 PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-OPTIMIZATION OPTIONS       (14:13:35)
+OPTIMIZATION OPTIONS       (11:23:49)
 
 Messages:
 
@@ -209,12 +211,48 @@ Completed Successfully
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
 <CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
-DESIGN EQUATIONS           (14:13:35)
+DESIGN EQUATIONS           (11:23:49)
 </CYPRESSTAG>
 
+    columna(0).D =
+          columna(1).Q 
+
+    columna(0).AR =
+          clr 
+
+    columna(0).SP =
+          GND
+
+    columna(0).C =
+          clk 
+
+    columna(1).D =
+          columna(2).Q 
+
+    columna(1).AR =
+          clr 
+
+    columna(1).SP =
+          GND
+
+    columna(1).C =
+          clk 
+
+    /columna(2).D =
+          /columna(0).Q 
+
+    columna(2).AR =
+          clr 
+
+    columna(2).SP =
+          GND
+
+    columna(2).C =
+          clk 
+
     display(0).D =
-          l * /q(0).Q * /q(1).Q * teclado(3) 
-        + l * /q(2).Q * teclado(0) 
+          /columna(0).Q * /columna(1).Q * fila(3) * l 
+        + /columna(2).Q * fila(0) * l 
         + display(0).Q * /l 
 
     display(0).AR =
@@ -227,8 +265,8 @@ DESIGN EQUATIONS           (14:13:35)
           clk 
 
     display(1).D =
-          l * /q(0).Q * /q(1).Q * /teclado(2) 
-        + l * teclado(3) 
+          /columna(0).Q * /columna(1).Q * /fila(2) * l 
+        + fila(3) * l 
         + display(1).Q * /l 
 
     display(1).AR =
@@ -241,9 +279,9 @@ DESIGN EQUATIONS           (14:13:35)
           clk 
 
     display(2).D =
-          l * /q(1).Q * /teclado(0) * /teclado(2) 
-        + l * /q(0).Q * teclado(2) 
-        + l * /q(0).Q * /q(1).Q 
+          /columna(1).Q * /fila(0) * /fila(2) * l 
+        + /columna(0).Q * fila(2) * l 
+        + /columna(0).Q * /columna(1).Q * l 
         + display(2).Q * /l 
 
     display(2).AR =
@@ -256,7 +294,7 @@ DESIGN EQUATIONS           (14:13:35)
           clk 
 
     display(3).D =
-          l * q(2).Q * /teclado(0) 
+          columna(2).Q * /fila(0) * l 
         + display(3).Q * /l 
 
     display(3).AR =
@@ -269,8 +307,8 @@ DESIGN EQUATIONS           (14:13:35)
           clk 
 
     display(4).D =
-          l * q(2).Q * teclado(0) 
-        + l * q(1).Q * teclado(3) 
+          columna(2).Q * fila(0) * l 
+        + columna(1).Q * fila(3) * l 
         + display(4).Q * /l 
 
     display(4).AR =
@@ -283,8 +321,8 @@ DESIGN EQUATIONS           (14:13:35)
           clk 
 
     display(5).D =
-          l * /q(0).Q * /q(1).Q * teclado(0) 
-        + l * /q(2).Q * teclado(2) 
+          /columna(0).Q * /columna(1).Q * fila(0) * l 
+        + /columna(2).Q * fila(2) * l 
         + display(5).Q * /l 
 
     display(5).AR =
@@ -297,8 +335,8 @@ DESIGN EQUATIONS           (14:13:35)
           clk 
 
     display(6).D =
-          l * q(2).Q * /teclado(0) * /teclado(1) 
-        + l * q(0).Q * teclado(0) 
+          columna(2).Q * /fila(0) * /fila(1) * l 
+        + columna(0).Q * fila(0) * l 
         + display(6).Q * /l 
 
     display(6).AR =
@@ -310,48 +348,12 @@ DESIGN EQUATIONS           (14:13:35)
     display(6).C =
           clk 
 
-    q(0).D =
-          q(1).Q 
-
-    q(0).AR =
-          clr 
-
-    q(0).SP =
-          GND
-
-    q(0).C =
-          clk 
-
-    q(1).D =
-          q(2).Q 
-
-    q(1).AR =
-          clr 
-
-    q(1).SP =
-          GND
-
-    q(1).C =
-          clk 
-
-    /q(2).D =
-          /q(0).Q 
-
-    q(2).AR =
-          clr 
-
-    q(2).SP =
-          GND
-
-    q(2).C =
-          clk 
-
 
 Completed Successfully  
 ----------------------------------------------------------------------------
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-DESIGN RULE CHECK          (14:13:35)
+DESIGN RULE CHECK          (11:23:49)
 
 Messages:
                  None.
@@ -365,7 +367,7 @@ Completed Successfully
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
 <CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
-PINOUT INFORMATION   (14:13:35)
+PINOUT INFORMATION   (11:23:49)
 </CYPRESSTAG>
 Messages:
   Information: Checking for duplicate NODE logic.
@@ -375,11 +377,11 @@ Messages:
                                  C22V10
                  __________________________________________
             clk =| 1|                                  |24|* not used       
-            clr =| 2|                                  |23|= q(2)           
-     teclado(3) =| 3|                                  |22|= q(1)           
-     teclado(2) =| 4|                                  |21|= q(0)           
-     teclado(1) =| 5|                                  |20|= display(6)     
-     teclado(0) =| 6|                                  |19|= display(5)     
+            clr =| 2|                                  |23|= columna(2)     
+        fila(3) =| 3|                                  |22|= columna(1)     
+        fila(2) =| 4|                                  |21|= columna(0)     
+        fila(1) =| 5|                                  |20|= display(6)     
+        fila(0) =| 6|                                  |19|= display(5)     
               l =| 7|                                  |18|= display(4)     
        not used *| 8|                                  |17|= display(3)     
        not used *| 9|                                  |16|= display(2)     
@@ -397,7 +399,7 @@ Completed Successfully
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
 <CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
-RESOURCE UTILIZATION (14:13:35)
+RESOURCE UTILIZATION (11:23:49)
 </CYPRESSTAG>
   Information: Macrocell Utilization.
 
@@ -421,9 +423,9 @@ RESOURCE UTILIZATION (14:13:35)
                  | 18  |  display(4)      |   3  |  16  |
                  | 19  |  display(5)      |   3  |  16  |
                  | 20  |  display(6)      |   3  |  14  |
-                 | 21  |  q(0)            |   1  |  12  |
-                 | 22  |  q(1)            |   1  |  10  |
-                 | 23  |  q(2)            |   1  |   8  |
+                 | 21  |  columna(0)      |   1  |  12  |
+                 | 22  |  columna(1)      |   1  |  10  |
+                 | 23  |  columna(2)      |   1  |   8  |
                  | 25  |  Unused          |   0  |   1  |
                  ________________________________________
                                              24  / 121   = 19  %
@@ -433,7 +435,7 @@ Completed Successfully
 ----------------------------------------------------------------------------
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-JEDEC ASSEMBLE             (14:13:35)
+JEDEC ASSEMBLE             (11:23:49)
 
 Messages:
   Information: Output file 'Teclado.pin' created.
@@ -447,4 +449,4 @@ Messages:
 Summary:
                  Error Count = 0      Warning Count = 0
 
-Completed Successfully at 14:13:35
+Completed Successfully at 11:23:49

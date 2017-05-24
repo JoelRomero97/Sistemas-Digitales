@@ -6,7 +6,7 @@
 
 --    VHDL File: Teclado.vhd
 
---    Date: Tue May 23 14:13:35 2017
+--    Date: Wed May 24 11:23:49 2017
 
 --  Disassembly from Jedec file for: c22v10
 
@@ -26,8 +26,8 @@ ENTITY moore IS
 	                 clk :    in std_logic ;
 	                 clr :    in std_logic ;
 	             display : inout std_logic_vector (6 downto 0) ;
-	                   q : inout std_logic_vector (2 downto 0) ;
-	             teclado :    in std_logic_vector (3 downto 0)
+	             columna : inout std_logic_vector (2 downto 0) ;
+	                fila :    in std_logic_vector (3 downto 0)
     );
 END moore;
 
@@ -37,10 +37,10 @@ ARCHITECTURE DSMB of moore is
 
 	signal jed_node1	: std_logic:='0' ; -- clk
 	signal jed_node2	: std_logic:='0' ; -- clr
-	signal jed_node3	: std_logic:='0' ; -- teclado(3)
-	signal jed_node4	: std_logic:='0' ; -- teclado(2)
-	signal jed_node5	: std_logic:='0' ; -- teclado(1)
-	signal jed_node6	: std_logic:='0' ; -- teclado(0)
+	signal jed_node3	: std_logic:='0' ; -- fila(3)
+	signal jed_node4	: std_logic:='0' ; -- fila(2)
+	signal jed_node5	: std_logic:='0' ; -- fila(1)
+	signal jed_node6	: std_logic:='0' ; -- fila(0)
 	signal jed_node7	: std_logic:='0' ; -- l
 	signal jed_node8	: std_logic:='0' ;
 	signal jed_node9	: std_logic:='0' ;
@@ -61,16 +61,16 @@ SIGNAL  jed_oept_2:std_logic:='0';
 --Attribute PIN_NUMBERS of clr:SIGNAL is "0002";
 
 SIGNAL  jed_oept_3:std_logic:='0';
---Attribute PIN_NUMBERS of teclado(3):SIGNAL is "0003";
+--Attribute PIN_NUMBERS of fila(3):SIGNAL is "0003";
 
 SIGNAL  jed_oept_4:std_logic:='0';
---Attribute PIN_NUMBERS of teclado(2):SIGNAL is "0004";
+--Attribute PIN_NUMBERS of fila(2):SIGNAL is "0004";
 
 SIGNAL  jed_oept_5:std_logic:='0';
---Attribute PIN_NUMBERS of teclado(1):SIGNAL is "0005";
+--Attribute PIN_NUMBERS of fila(1):SIGNAL is "0005";
 
 SIGNAL  jed_oept_6:std_logic:='0';
---Attribute PIN_NUMBERS of teclado(0):SIGNAL is "0006";
+--Attribute PIN_NUMBERS of fila(0):SIGNAL is "0006";
 
 SIGNAL  jed_oept_7:std_logic:='0';
 --Attribute PIN_NUMBERS of l:SIGNAL is "0007";
@@ -105,15 +105,15 @@ SIGNAL  jed_sum_20,jed_fb_20:std_logic:='0';
 
 SIGNAL  jed_oept_21:std_logic:='0';
 SIGNAL  jed_sum_21,jed_fb_21:std_logic:='0';
---Attribute PIN_NUMBERS of q(0):SIGNAL is "0021";
+--Attribute PIN_NUMBERS of columna(0):SIGNAL is "0021";
 
 SIGNAL  jed_oept_22:std_logic:='0';
 SIGNAL  jed_sum_22,jed_fb_22:std_logic:='0';
---Attribute PIN_NUMBERS of q(1):SIGNAL is "0022";
+--Attribute PIN_NUMBERS of columna(1):SIGNAL is "0022";
 
 SIGNAL  jed_oept_23:std_logic:='0';
 SIGNAL  jed_sum_23,jed_fb_23:std_logic:='0';
---Attribute PIN_NUMBERS of q(2):SIGNAL is "0023";
+--Attribute PIN_NUMBERS of columna(2):SIGNAL is "0023";
 
 SIGNAL  jed_oept_25:std_logic:='0';
 SIGNAL  jed_node25,jed_sum_25:std_logic:='0';
@@ -123,10 +123,10 @@ SIGNAL  jed_node26,jed_sum_26:std_logic:='0';
 BEGIN
 jed_node1 <= clk ;
 jed_node2 <= clr ;
-jed_node3 <= teclado(3) ;
-jed_node4 <= teclado(2) ;
-jed_node5 <= teclado(1) ;
-jed_node6 <= teclado(0) ;
+jed_node3 <= fila(3) ;
+jed_node4 <= fila(2) ;
+jed_node5 <= fila(1) ;
+jed_node6 <= fila(0) ;
 jed_node7 <= l ;
 Mcell_14:c22v10m
 generic map(reg,
@@ -348,7 +348,7 @@ port map(
      oe=>jed_oept_21,
      ss=>jed_sum_26,
      ar=>jed_sum_25,
-     y=>q(0),
+     y=>columna(0),
      fb=>jed_fb_21
    );
 
@@ -376,7 +376,7 @@ port map(
      oe=>jed_oept_22,
      ss=>jed_sum_26,
      ar=>jed_sum_25,
-     y=>q(1),
+     y=>columna(1),
      fb=>jed_fb_22
    );
 
@@ -404,7 +404,7 @@ port map(
      oe=>jed_oept_23,
      ss=>jed_sum_26,
      ar=>jed_sum_25,
-     y=>q(2),
+     y=>columna(2),
      fb=>jed_fb_23
    );
 

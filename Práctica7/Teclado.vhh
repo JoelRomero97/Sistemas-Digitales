@@ -4,7 +4,7 @@ ENTITY moore IS
 	clk : in std_logic  ; 
 	clr : in std_logic  ; 
 	display : inout std_logic_vector (6 downto 0) ; 
-	q : inout std_logic_vector (2 downto 0) ; 
-	teclado : in std_logic_vector (3 downto 0)
+	columna : inout std_logic_vector (2 downto 0) ; 
+	fila : in std_logic_vector (3 downto 0)
     ) ;
 END moore ;

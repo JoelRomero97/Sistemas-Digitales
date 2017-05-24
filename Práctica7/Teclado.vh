@@ -3,13 +3,13 @@ module moore (
 	clk,
 	clr,
 	display,
-	q,
-	teclado
+	columna,
+	fila
 	) ;
 
 input  l;
 input  clk;
 input  clr;
 inout [6:0] display;
-inout [2:0] q;
-input [3:0] teclado;
+inout [2:0] columna;
+input [3:0] fila;

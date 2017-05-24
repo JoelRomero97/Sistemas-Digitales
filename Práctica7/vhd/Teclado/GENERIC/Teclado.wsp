@@ -1,0 +1,20 @@
+[General]
+CurrentVersion=102
+[OPENDOC|OUTPUT.IGENERIC||]
+CmdLine=
+[OPENDOC|AVHDLEXTENSION.GENERIC||]
+CmdLine=
+[OPENDOC|HELPREF.GENERIC||]
+CmdLine=
+[OPENDOC|PROJECT.KGENERICC|C:\Documents and Settings\Administrador\Escritorio\DiseñoDigitales\Práctica7\vhd\Teclado\Teclado.adf|]
+CmdLine=
+Path=
+[OPENDOC|STIMMAN.STIMMANAGER||]
+CmdLine=
+[OPENDOC|VSIM.SHELL||]
+CmdLine=
+[OPENDOC|SCRIPTENGINE.GENERIC||]
+CmdLine=
+[OPENDOC|WAVEFORM.GENERIC|C:\Documents and Settings\Administrador\Escritorio\DiseñoDigitales\Práctica7\vhd\Teclado\src\SimulacionTeclado.awf|]
+CmdLine=-start_time=500480 -visible_time=428927 
+MDIPlacement=2C0000000000000003000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF010000007F00000051050000CF010000C5

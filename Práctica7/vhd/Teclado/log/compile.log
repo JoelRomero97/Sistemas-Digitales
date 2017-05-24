@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: C:\Documents and Settings\Administrador\Escritorio\DiseñoDigitales\Práctica7\vhd\Teclado.vhd
+ Compile Entity "moore"
+ Compile Architecture "DSMB" of Entity "moore"
+ Top-Level unit detected
+ Entity  =>   moore
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]

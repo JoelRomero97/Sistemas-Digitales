@@ -1,0 +1,8 @@
+ENTITY contador IS
+    PORT (
+	clr : in std_logic  ; 
+	clk : in std_logic  ; 
+	e : in std_logic  ; 
+	q : inout std_logic_vector (9 downto 0)
+    ) ;
+END contador ;

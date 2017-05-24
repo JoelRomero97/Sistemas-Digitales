@@ -1,0 +1,84 @@
+Design: 20:44, martes, 23 de mayo de 2017
+Design: Opening design "C:\Documents and Settings\Administrador\Escritorio\DiseñoDigitales\Práctica9\MARQUESINA GAL1\vhd\Contador\Contador.adf"
+Compilation with file reorder...
+File: C:\Documents and Settings\Administrador\Escritorio\DiseñoDigitales\Práctica9\MARQUESINA GAL1\vhd\Contador.vhd
+Compile Entity "contador"
+Compile Architecture "DSMB" of Entity "contador"
+Top-Level unit detected
+Entity  =>   contador
+Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.1 [s].
+KERNEL: Kernel process initialization done.
+20:45, martes, 23 de mayo de 2017
+Simulation has been initialized
+Selected Top-Level: contador (DSMB)
+KERNEL: stopped at time: 50 ns
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 150 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: stopped at time: 250 ns
+KERNEL: stopped at time: 300 ns
+KERNEL: stopped at time: 350 ns
+KERNEL: stopped at time: 400 ns
+KERNEL: stopped at time: 450 ns
+KERNEL: stopped at time: 500 ns
+KERNEL: stopped at time: 550 ns
+KERNEL: stopped at time: 600 ns
+KERNEL: stopped at time: 650 ns
+KERNEL: stopped at time: 700 ns
+KERNEL: stopped at time: 750 ns
+KERNEL: stopped at time: 800 ns
+KERNEL: stopped at time: 850 ns
+KERNEL: stopped at time: 900 ns
+KERNEL: stopped at time: 950 ns
+KERNEL: stopped at time: 1 us
+KERNEL: stopped at time: 1050 ns
+KERNEL: stopped at time: 1100 ns
+KERNEL: stopped at time: 1150 ns
+KERNEL: stopped at time: 1200 ns
+KERNEL: stopped at time: 1250 ns
+KERNEL: stopped at time: 1300 ns
+KERNEL: stopped at time: 1350 ns
+KERNEL: stopped at time: 1400 ns
+KERNEL: stopped at time: 1450 ns
+KERNEL: stopped at time: 1500 ns
+KERNEL: stopped at time: 1550 ns
+KERNEL: stopped at time: 1600 ns
+KERNEL: stopped at time: 1650 ns
+KERNEL: stopped at time: 1700 ns
+KERNEL: stopped at time: 1750 ns
+KERNEL: stopped at time: 1800 ns
+KERNEL: stopped at time: 1850 ns
+KERNEL: stopped at time: 1900 ns
+KERNEL: stopped at time: 1950 ns
+KERNEL: stopped at time: 2 us
+KERNEL: stopped at time: 2050 ns
+KERNEL: stopped at time: 2100 ns
+KERNEL: stopped at time: 2150 ns
+KERNEL: stopped at time: 2200 ns
+KERNEL: stopped at time: 2250 ns
+KERNEL: stopped at time: 2300 ns
+KERNEL: stopped at time: 2350 ns
+KERNEL: stopped at time: 2400 ns
+KERNEL: stopped at time: 2450 ns
+KERNEL: stopped at time: 2500 ns
+KERNEL: stopped at time: 2550 ns
+KERNEL: stopped at time: 2600 ns
+KERNEL: stopped at time: 2650 ns
+KERNEL: stopped at time: 2700 ns
+KERNEL: stopped at time: 2750 ns
+KERNEL: stopped at time: 2800 ns
+KERNEL: stopped at time: 2850 ns
+KERNEL: stopped at time: 2900 ns
+KERNEL: stopped at time: 2950 ns
+KERNEL: stopped at time: 3 us
+KERNEL: stopped at time: 3050 ns
+KERNEL: stopped at time: 3100 ns
+Simulation has been stopped

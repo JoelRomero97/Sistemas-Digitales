@@ -1,0 +1,25 @@
+Cypress Package: palce22v10-15pc  PinOut File: Sensores.pin
+
+This file was created on 05/17/2017 at 12:41:06 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [User] 
+e0(3) in <> Enabled Normal 2 <> [User] 
+e0(2) in <> Enabled Normal 3 <> [User] 
+e0(1) in <> Enabled Normal 4 <> [User] 
+e0(0) in <> Enabled Normal 5 <> [User] 
+e1(2) in <> Enabled Normal 6 <> [User] 
+e1(1) in <> Enabled Normal 7 <> [User] 
+e1(0) in <> Enabled Normal 8 <> [User] 
+clr in <> Enabled Normal 13 <> [User] 
+selector(2) inout <> Enabled Normal 14 <> [Auto] 
+display(0) out <> Enabled Normal 15 <> [User] 
+display(1) out <> Enabled Normal 16 <> [User] 
+display(2) out <> Enabled Normal 17 <> [User] 
+display(3) out <> Enabled Normal 18 <> [User] 
+display(4) out <> Enabled Normal 19 <> [User] 
+display(5) out <> Enabled Normal 20 <> [User] 
+display(6) out <> Enabled Normal 21 <> [User] 
+selector(0) inout <> Enabled Normal 22 <> [Auto] 
+selector(1) inout <> Enabled Normal 23 <> [Auto] 

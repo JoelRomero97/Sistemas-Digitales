@@ -1,0 +1,19 @@
+Cypress Package: palce22v10-15pc  PinOut File: Marquesina.pin
+
+This file was created on 05/31/2017 at 08:57:04 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+clr in <> Enabled Normal 2 <> [User] 
+e in <> Enabled Normal 3 <> [User] 
+q(0) inout <> Enabled Normal 14 <> [User] 
+q(1) inout <> Enabled Normal 15 <> [User] 
+q(2) inout <> Enabled Normal 16 <> [User] 
+q(3) inout <> Enabled Normal 17 <> [User] 
+q(4) inout <> Enabled Normal 18 <> [User] 
+q(5) inout <> Enabled Normal 19 <> [Auto] 
+q(7) inout <> Enabled Normal 20 <> [Auto] 
+q(9) inout <> Enabled Normal 21 <> [Auto] 
+q(8) inout <> Enabled Normal 22 <> [Auto] 
+q(6) inout <> Enabled Normal 23 <> [Auto] 

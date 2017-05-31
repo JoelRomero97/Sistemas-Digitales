@@ -1,0 +1,9 @@
+ENTITY marquesinarom2 IS
+    PORT (
+	clr : in std_logic  ; 
+	clk : in std_logic  ; 
+	dir : in std_logic_vector (3 downto 0) ; 
+	display : inout std_logic_vector (6 downto 0) ; 
+	an : inout std_logic_vector (2 downto 0)
+    ) ;
+END marquesinarom2 ;

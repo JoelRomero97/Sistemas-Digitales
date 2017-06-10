@@ -1,2 +1,2 @@
-ContadorDecada.vhd #Entity contadordecada 7
-ContadorDecada.vhd #Architecture acontadordecada contadordecada 16
+ContadorDecada.vhd #Entity sensores 6
+ContadorDecada.vhd #Architecture a_sensores sensores 24

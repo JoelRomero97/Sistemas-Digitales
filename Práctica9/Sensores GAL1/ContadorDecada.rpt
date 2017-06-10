@@ -13,11 +13,11 @@
 
 ======================================================================
 Compiling:  ContadorDecada.vhd
-Options:    -m -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-15pc -b ContadorDecada.vhd -u ContadorDecada.hie
+Options:    -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-15pc -b ContadorDecada.vhd -u ContadorDecada.hie
 ======================================================================
 
 vhdlfe V6.3 IR 35:  VHDL parser
-Tue May 23 17:49:30 2017
+Wed Jun 07 14:46:31 2017
 
 Library 'work' => directory 'lc22v10'
 Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
@@ -28,20 +28,52 @@ Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\syntocyp.vif'.
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\synusgnd.vif'.
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\synarith.vif'.
-ContadorDecada.vhd (line 26, col 15):  Note: Substituting module 'cmp_vv_us_bl' for '='.
-ContadorDecada.vhd (line 27, col 16):  Note: Substituting module 'add_vi_v_us' for '+'.
-ContadorDecada.vhd (line 28, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
-ContadorDecada.vhd (line 30, col 17):  Note: Substituting module 'add_vi_v_us' for '+'.
-ContadorDecada.vhd (line 32, col 22):  Note: Substituting module 'cmp_vv_us_bl' for '='.
-ContadorDecada.vhd (line 33, col 17):  Note: Substituting module 'sub_vi_v_us' for '-'.
-ContadorDecada.vhd (line 34, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
-ContadorDecada.vhd (line 36, col 15):  Note: Substituting module 'sub_vi_v_us' for '-'.
+ContadorDecada.vhd (line 45, col 15):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 48, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 51, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 54, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 60, col 15):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 63, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 66, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 69, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 75, col 15):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 78, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 81, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 84, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 90, col 15):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 93, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 96, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 99, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 105, col 15):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 108, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 111, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 114, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 120, col 15):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 123, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 126, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 129, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 135, col 15):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 138, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 141, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 144, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 150, col 15):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 153, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 156, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 159, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 174, col 15):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 175, col 16):  Note: Substituting module 'add_vi_v_us' for '+'.
+ContadorDecada.vhd (line 176, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 178, col 17):  Note: Substituting module 'add_vi_v_us' for '+'.
+ContadorDecada.vhd (line 180, col 22):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 181, col 17):  Note: Substituting module 'sub_vi_v_us' for '-'.
+ContadorDecada.vhd (line 182, col 18):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+ContadorDecada.vhd (line 184, col 15):  Note: Substituting module 'sub_vi_v_us' for '-'.
 
 vhdlfe:  No errors.
 
 
 tovif V6.3 IR 35:  High-level synthesis
-Tue May 23 17:49:30 2017
+Wed Jun 07 14:46:33 2017
 
 Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
@@ -59,7 +91,7 @@ tovif:  No errors.
 
 
 topld V6.3 IR 35:  Synthesis and optimization
-Tue May 23 17:49:31 2017
+Wed Jun 07 14:46:35 2017
 
 Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
@@ -72,13 +104,48 @@ Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\lpmpkg.vif'.
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\rtlpkg.vif'.
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_cnst.vif'.
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\syntocyp.vif'.
+State variable 'edo_act' is represented by a Bit_vector (0 to 2).
+State encoding (sequential) for 'edo_act' is:
+	e0 :=	b"000";
+	e1 :=	b"001";
+	e2 :=	b"010";
+	e3 :=	b"011";
+	e4 :=	b"100";
+	e5 :=	b"101";
+	e6 :=	b"110";
+	e7 :=	b"111";
+State variable 'edo_sig' is represented by a Bit_vector (0 to 2).
+State encoding (sequential) for 'edo_sig' is:
+	e0 :=	b"000";
+	e1 :=	b"001";
+	e2 :=	b"010";
+	e3 :=	b"011";
+	e4 :=	b"100";
+	e5 :=	b"101";
+	e6 :=	b"110";
+	e7 :=	b"111";
 Linking 'C:\Archivos de programa\Cypress\Warp\lib\lc22v10\stdlogic\c22v10.vif'.
 
 ----------------------------------------------------------
 Detecting unused logic.
 ----------------------------------------------------------
+    User names
+	edo_actSBV_0
+	edo_sigSBV_0
+	edo_actSBV_1
+	edo_sigSBV_1
+	edo_actSBV_2
+	edo_sigSBV_2
+	z_1
+	z_0
+	\MODULE_1:g2:a0:eqa_1\
+	\MODULE_1:g2:a0:eqa_0\
+	\MODULE_4:g2:a0:eqa_1\
+	\MODULE_4:g2:a0:eqa_0\
 
 
+Deleted 12 User equations/components.
+Deleted 11 Synthesized equations/components.
 
 ------------------------------------------------------
 Alias Detection
@@ -107,14 +174,14 @@ Alias Detection
 ------------------------------------------------------
 Aliased 0 equations, 0 wires.
 ------------------------------------------------------
-Created 126 PLD nodes.
+Created 156 PLD nodes.
 
 topld:  No errors.
 
 ----------------------------------------------------------------------------
 PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-DESIGN HEADER INFORMATION  (17:49:33)
+DESIGN HEADER INFORMATION  (14:46:39)
 
 Input File(s): ContadorDecada.pla
 Device       : C22V10
@@ -133,7 +200,7 @@ Completed Successfully
 ----------------------------------------------------------------------------
 PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-OPTIMIZATION OPTIONS       (17:49:33)
+OPTIMIZATION OPTIONS       (14:46:39)
 
 Messages:
   Information: Process virtual '\d(0)D\'\d(0)D\ ... expanded.
@@ -171,7 +238,7 @@ Completed Successfully
 ----------------------------------------------------------------------------
 PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-OPTIMIZATION OPTIONS       (17:49:33)
+OPTIMIZATION OPTIONS       (14:46:40)
 
 Messages:
   Information: Optimizing Banked Preset/Reset requirements.
@@ -185,15 +252,15 @@ Completed Successfully
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
 <CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
-DESIGN EQUATIONS           (17:49:33)
+DESIGN EQUATIONS           (14:46:40)
 </CYPRESSTAG>
 
     d(0).D =
           /d(0).Q * e(0) * /e(1) * u(0).Q * /u(1).Q * /u(2).Q * u(3).Q 
         + /d(0).Q * /e(0) * e(1) * /u(0).Q * /u(1).Q * /u(2).Q * /u(3).Q 
-        + d(0).Q * e(1) * u(3).Q 
-        + d(0).Q * /e(0) * /e(1) 
-        + d(0).Q * e(0) * /u(0).Q 
+        + d(0).Q * e(0) * e(1) 
+        + d(0).Q * /e(0) * u(3).Q 
+        + d(0).Q * /e(1) * /u(0).Q 
         + d(0).Q * u(0).Q * /u(3).Q 
         + d(0).Q * u(2).Q 
         + d(0).Q * u(1).Q 
@@ -212,11 +279,11 @@ DESIGN EQUATIONS           (17:49:33)
           u(3).Q 
         + /d(0).Q * /d(1).Q * /e(0) * e(1) * /u(0).Q * /u(1).Q * /u(2).Q * 
           /u(3).Q 
-        + d(1).Q * e(1) * u(3).Q 
-        + /d(0).Q * d(1).Q * e(0) 
-        + d(1).Q * /e(0) * u(0).Q 
-        + d(1).Q * /e(1) * /u(0).Q 
-        + d(0).Q * d(1).Q * /u(3).Q 
+        + d(0).Q * d(1).Q * e(1) 
+        + /d(0).Q * d(1).Q * u(0).Q 
+        + d(1).Q * /e(0) * u(3).Q 
+        + d(1).Q * e(0) * /u(0).Q 
+        + d(1).Q * /e(1) * /u(3).Q 
         + d(1).Q * u(2).Q 
         + d(1).Q * u(1).Q 
 
@@ -234,11 +301,11 @@ DESIGN EQUATIONS           (17:49:33)
           /u(2).Q * u(3).Q 
         + /d(0).Q * /d(1).Q * /d(2).Q * /e(0) * e(1) * /u(0).Q * /u(1).Q * 
           /u(2).Q * /u(3).Q 
-        + d(2).Q * e(1) * u(3).Q 
-        + /d(0).Q * d(2).Q * e(0) 
+        + d(1).Q * d(2).Q * e(1) 
         + /d(1).Q * d(2).Q * u(0).Q 
-        + d(1).Q * d(2).Q * /e(0) 
-        + d(2).Q * /e(1) * /u(0).Q 
+        + d(2).Q * /e(0) * u(3).Q 
+        + /d(0).Q * d(2).Q * /e(1) 
+        + d(2).Q * e(0) * /u(0).Q 
         + d(0).Q * d(2).Q * /u(3).Q 
         + d(2).Q * u(2).Q 
         + d(2).Q * u(1).Q 
@@ -272,9 +339,9 @@ DESIGN EQUATIONS           (17:49:33)
         + /e(0) * e(1) * /u(0).Q * /u(1).Q * u(3).Q 
         + /e(0) * e(1) * /u(0).Q * /u(1).Q * u(2).Q 
         + e(0) * /e(1) * u(0).Q * /u(1).Q * /u(3).Q 
-        + e(0) * e(1) * u(1).Q 
-        + /e(0) * u(0).Q * u(1).Q 
-        + /e(1) * /u(0).Q * u(1).Q 
+        + e(1) * u(0).Q * u(1).Q 
+        + /e(0) * /e(1) * u(1).Q 
+        + e(0) * /u(0).Q * u(1).Q 
 
     u(1).AR =
           clr 
@@ -288,9 +355,9 @@ DESIGN EQUATIONS           (17:49:33)
     u(2).D =
           /e(0) * e(1) * /u(0).Q * /u(1).Q * /u(2).Q * u(3).Q 
         + e(0) * /e(1) * u(0).Q * u(1).Q * /u(2).Q 
-        + e(1) * u(1).Q * u(2).Q 
-        + /e(0) * /e(1) * u(2).Q 
-        + e(0) * /u(0).Q * u(2).Q 
+        + e(0) * e(1) * u(2).Q 
+        + /e(0) * u(1).Q * u(2).Q 
+        + /e(1) * /u(0).Q * u(2).Q 
         + u(0).Q * /u(1).Q * u(2).Q 
 
     u(2).AR =
@@ -305,10 +372,10 @@ DESIGN EQUATIONS           (17:49:33)
     u(3).D =
           e(0) * /e(1) * u(0).Q * u(1).Q * u(2).Q * /u(3).Q 
         + /e(0) * e(1) * /u(0).Q * /u(1).Q * /u(2).Q * /u(3).Q 
-        + e(0) * e(1) * u(3).Q 
-        + /e(0) * u(0).Q * u(3).Q 
-        + /u(0).Q * u(2).Q * u(3).Q 
-        + /e(1) * /u(0).Q * u(3).Q 
+        + e(1) * u(0).Q * u(3).Q 
+        + /e(0) * u(2).Q * u(3).Q 
+        + /e(0) * /e(1) * u(3).Q 
+        + e(0) * /u(0).Q * u(3).Q 
         + /u(1).Q * u(2).Q * u(3).Q 
         + u(1).Q * /u(2).Q * u(3).Q 
 
@@ -326,7 +393,7 @@ Completed Successfully
 ----------------------------------------------------------------------------
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-DESIGN RULE CHECK          (17:49:33)
+DESIGN RULE CHECK          (14:46:40)
 
 Messages:
                  None.
@@ -340,27 +407,26 @@ Completed Successfully
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
 <CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
-PINOUT INFORMATION   (17:49:33)
+PINOUT INFORMATION   (14:46:40)
 </CYPRESSTAG>
 Messages:
-  Information: Checking for duplicate NODE logic.
-                 None.
+  Information: All signals pre-placed in user design.
 
 
                                  C22V10
                  __________________________________________
             clk =| 1|                                  |24|* not used       
-           e(1) =| 2|                                  |23|= d(0)           
-           e(0) =| 3|                                  |22|= d(1)           
-            clr =| 4|                                  |21|= u(2)           
-       not used *| 5|                                  |20|* not used       
-       not used *| 6|                                  |19|* not used       
-       not used *| 7|                                  |18|* not used       
-       not used *| 8|                                  |17|= u(0)           
-       not used *| 9|                                  |16|= u(1)           
-       not used *|10|                                  |15|= d(2)           
-       not used *|11|                                  |14|= u(3)           
-       not used *|12|                                  |13|* not used       
+           e(1) =| 2|                                  |23|* not used       
+           e(0) =| 3|                                  |22|* not used       
+       not used *| 4|                                  |21|* not used       
+       not used *| 5|                                  |20|= d(2)           
+       not used *| 6|                                  |19|= d(1)           
+       not used *| 7|                                  |18|= d(0)           
+       not used *| 8|                                  |17|= u(3)           
+       not used *| 9|                                  |16|= u(2)           
+       not used *|10|                                  |15|= u(1)           
+       not used *|11|                                  |14|= u(0)           
+       not used *|12|                                  |13|= clr            
                  __________________________________________
 
 
@@ -368,11 +434,12 @@ Summary:
                  Error Count = 0      Warning Count = 0
 
 Completed Successfully  
+  Information: Checking for duplicate NODE logic.
 ----------------------------------------------------------------------------
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
 <CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
-RESOURCE UTILIZATION (17:49:33)
+RESOURCE UTILIZATION (14:46:40)
 </CYPRESSTAG>
   Information: Macrocell Utilization.
 
@@ -389,16 +456,16 @@ RESOURCE UTILIZATION (17:49:33)
 
                   Node#  Output Signal Name  Used   Max
                  ________________________________________
-                 | 14  |  u(3)            |   8  |   8  |
-                 | 15  |  d(2)            |  10  |  10  |
-                 | 16  |  u(1)            |   7  |  12  |
-                 | 17  |  u(0)            |   4  |  14  |
-                 | 18  |  Unused          |   0  |  16  |
-                 | 19  |  Unused          |   0  |  16  |
-                 | 20  |  Unused          |   0  |  14  |
-                 | 21  |  u(2)            |   6  |  12  |
-                 | 22  |  d(1)            |   9  |  10  |
-                 | 23  |  d(0)            |   8  |   8  |
+                 | 14  |  u(0)            |   4  |   8  |
+                 | 15  |  u(1)            |   7  |  10  |
+                 | 16  |  u(2)            |   6  |  12  |
+                 | 17  |  u(3)            |   8  |  14  |
+                 | 18  |  d(0)            |   8  |  16  |
+                 | 19  |  d(1)            |   9  |  16  |
+                 | 20  |  d(2)            |  10  |  14  |
+                 | 21  |  Unused          |   0  |  12  |
+                 | 22  |  Unused          |   0  |  10  |
+                 | 23  |  Unused          |   0  |   8  |
                  | 25  |  Unused          |   0  |   1  |
                  ________________________________________
                                              52  / 121   = 42  %
@@ -408,18 +475,18 @@ Completed Successfully
 ----------------------------------------------------------------------------
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-JEDEC ASSEMBLE             (17:49:33)
+JEDEC ASSEMBLE             (14:46:40)
 
 Messages:
   Information: Output file 'ContadorDecada.pin' created.
   Information: Output file 'ContadorDecada.jed' created.
 
   Usercode:    
-  Checksum:    2A40
+  Checksum:    2817
 
 
 
 Summary:
                  Error Count = 0      Warning Count = 0
 
-Completed Successfully at 17:49:33
+Completed Successfully at 14:46:41

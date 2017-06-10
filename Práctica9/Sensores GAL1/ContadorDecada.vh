@@ -1,13 +1,13 @@
-module contadordecada ( 
-	e,
-	clk,
-	clr,
+module sensores ( 
 	u,
-	d
+	d,
+	e,
+	clr,
+	clk
 	) ;
 
-input [1:0] e;
-input  clk;
-input  clr;
 inout [3:0] u;
 inout [2:0] d;
+input [1:0] e;
+input  clr;
+input  clk;

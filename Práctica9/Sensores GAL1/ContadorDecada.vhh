@@ -1,9 +1,9 @@
-ENTITY contadordecada IS
+ENTITY sensores IS
     PORT (
-	e : in std_logic_vector (1 downto 0) ; 
-	clk : in std_logic  ; 
-	clr : in std_logic  ; 
 	u : inout std_logic_vector (3 downto 0) ; 
-	d : inout std_logic_vector (2 downto 0)
+	d : inout std_logic_vector (2 downto 0) ; 
+	e : in std_logic_vector (1 downto 0) ; 
+	clr : in std_logic  ; 
+	clk : in std_logic 
     ) ;
-END contadordecada ;
+END sensores ;
